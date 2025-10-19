@@ -1,0 +1,1523 @@
+INFO: Reading verilog ../source/ACT16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ACT16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ACT16bits.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ACT16bits.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ACT16bits.db:ACT16bits'
+Loaded 1 design.
+Current design is 'ACT16bits'.
+INFO: Reading verilog ../source/Mux8a1de1bit.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux8a1de1bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux8a1de1bit.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux8a1de1bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux8a1de1bit.db:Mux8a1de1bit'
+Loaded 1 design.
+Current design is 'Mux8a1de1bit'.
+INFO: Reading verilog ../source/ALU.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU.db:ALU'
+Loaded 1 design.
+Current design is 'ALU'.
+INFO: Reading verilog ../source/MuxShiftLeftRota.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRota.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRota.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRota.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRota.db:MuxShiftLeftRota'
+Loaded 1 design.
+Current design is 'MuxShiftLeftRota'.
+INFO: Reading verilog ../source/ALU1module.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU1module.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU1module.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU1module.db:ALU1module'
+Loaded 1 design.
+Current design is 'ALU1module'.
+INFO: Reading verilog ../source/MuxShiftLeftRotaWC.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRotaWC.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRotaWC.v
+
+Statistics for case statements in always block at line 9 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRotaWC.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftRotaWC.db:MuxShiftLeftRotaWC'
+Loaded 1 design.
+Current design is 'MuxShiftLeftRotaWC'.
+INFO: Reading verilog ../source/ALU2module.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU2module.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU2module.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ALU2module.db:ALU2module'
+Loaded 1 design.
+Current design is 'ALU2module'.
+INFO: Reading verilog ../source/MuxShiftLeftSimple.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftSimple.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftSimple.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftSimple.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftLeftSimple.db:MuxShiftLeftSimple'
+Loaded 1 design.
+Current design is 'MuxShiftLeftSimple'.
+INFO: Reading verilog ../source/ANDmodule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ANDmodule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ANDmodule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ANDmodule.db:ANDmodule'
+Loaded 1 design.
+Current design is 'ANDmodule'.
+INFO: Reading verilog ../source/MuxShiftRightRota.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRota.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRota.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRota.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRota.db:MuxShiftRightRota'
+Loaded 1 design.
+Current design is 'MuxShiftRightRota'.
+INFO: Reading verilog ../source/Adder16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Adder16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Adder16bits.v
+Warning:  /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Adder16bits.v:30: the undeclared symbol 'C3' assumed to have the default net type, which is 'wire'. (VER-936)
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Adder16bits.db:Adder16bits'
+Loaded 1 design.
+Current design is 'Adder16bits'.
+INFO: Reading verilog ../source/MuxShiftRightRotaWC.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRotaWC.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRotaWC.v
+
+Statistics for case statements in always block at line 9 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRotaWC.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightRotaWC.db:MuxShiftRightRotaWC'
+Loaded 1 design.
+Current design is 'MuxShiftRightRotaWC'.
+INFO: Reading verilog ../source/AjustBasicModule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/AjustBasicModule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/AjustBasicModule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/AjustBasicModule.db:AjustBasicModule'
+Loaded 1 design.
+Current design is 'AjustBasicModule'.
+INFO: Reading verilog ../source/MuxShiftRightSimple.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimple.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimple.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimple.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimple.db:MuxShiftRightSimple'
+Loaded 1 design.
+Current design is 'MuxShiftRightSimple'.
+INFO: Reading verilog ../source/Comple2d16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bits.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bits.db:Comple2d16bits'
+Loaded 1 design.
+Current design is 'Comple2d16bits'.
+INFO: Reading verilog ../source/MuxShiftRightSimpleArit.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimpleArit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimpleArit.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimpleArit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/MuxShiftRightSimpleArit.db:MuxShiftRightSimpleArit'
+Loaded 1 design.
+Current design is 'MuxShiftRightSimpleArit'.
+INFO: Reading verilog ../source/Comple2d16bitsB.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsB.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsB.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsB.db:Comple2d16bitsB'
+Loaded 1 design.
+Current design is 'Comple2d16bitsB'.
+INFO: Reading verilog ../source/ORmodule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ORmodule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ORmodule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ORmodule.db:ORmodule'
+Loaded 1 design.
+Current design is 'ORmodule'.
+INFO: Reading verilog ../source/Comple2d16bitsCin.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsCin.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsCin.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d16bitsCin.db:Comple2d16bitsCin'
+Loaded 1 design.
+Current design is 'Comple2d16bitsCin'.
+INFO: Reading verilog ../source/Reg16bitsEnaDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg16bitsEnaDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg16bitsEnaDown.v
+
+Inferred memory devices in process
+	in routine Reg16bitsEnaDown line 8 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg16bitsEnaDown.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |  16   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg16bitsEnaDown.db:Reg16bitsEnaDown'
+Loaded 1 design.
+Current design is 'Reg16bitsEnaDown'.
+INFO: Reading verilog ../source/Comple2d32bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d32bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d32bits.v
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Comple2d32bits.db:Comple2d32bits'
+Loaded 1 design.
+Current design is 'Comple2d32bits'.
+INFO: Reading verilog ../source/Reg1bitEnaDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaDown.v
+
+Inferred memory devices in process
+	in routine Reg1bitEnaDown line 8 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaDown.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaDown.db:Reg1bitEnaDown'
+Loaded 1 design.
+Current design is 'Reg1bitEnaDown'.
+INFO: Reading verilog ../source/DecoALU1module.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DecoALU1module.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DecoALU1module.v
+
+Statistics for case statements in always block at line 12 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DecoALU1module.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            13            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DecoALU1module.db:DecoALU1module'
+Loaded 1 design.
+Current design is 'DecoALU1module'.
+INFO: Reading verilog ../source/Reg1bitEnaSetDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetDown.v
+
+Inferred memory devices in process
+	in routine Reg1bitEnaSetDown line 8 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetDown.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetDown.db:Reg1bitEnaSetDown'
+Loaded 1 design.
+Current design is 'Reg1bitEnaSetDown'.
+INFO: Reading verilog ../source/DetectorParidad.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorParidad.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorParidad.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorParidad.db:DetectorParidad'
+Loaded 1 design.
+Current design is 'DetectorParidad'.
+INFO: Reading verilog ../source/Reg1bitEnaSetTogDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetTogDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetTogDown.v
+
+Inferred memory devices in process
+	in routine Reg1bitEnaSetTogDown line 8 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetTogDown.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Reg1bitEnaSetTogDown.db:Reg1bitEnaSetTogDown'
+Loaded 1 design.
+Current design is 'Reg1bitEnaSetTogDown'.
+INFO: Reading verilog ../source/DetectorZero.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorZero.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorZero.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/DetectorZero.db:DetectorZero'
+Loaded 1 design.
+Current design is 'DetectorZero'.
+INFO: Reading verilog ../source/RegIfEnaSetDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegIfEnaSetDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegIfEnaSetDown.v
+
+Inferred memory devices in process
+	in routine RegIfEnaSetDown line 8 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegIfEnaSetDown.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegIfEnaSetDown.db:RegIfEnaSetDown'
+Loaded 1 design.
+Current design is 'RegIfEnaSetDown'.
+INFO: Reading verilog ../source/Divi16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16bits.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16bits.db:Divi16bits'
+Loaded 1 design.
+Current design is 'Divi16bits'.
+INFO: Reading verilog ../source/RegRotate16bitsEnaDown.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegRotate16bitsEnaDown.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegRotate16bitsEnaDown.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RegRotate16bitsEnaDown.db:RegRotate16bitsEnaDown'
+Loaded 1 design.
+Current design is 'RegRotate16bitsEnaDown'.
+INFO: Reading verilog ../source/Divi16x16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16x16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16x16bits.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Divi16x16bits.db:Divi16x16bits'
+Loaded 1 design.
+Current design is 'Divi16x16bits'.
+INFO: Reading verilog ../source/RomDatos.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDatos.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDatos.v
+
+Statistics for case statements in always block at line 7 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDatos.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            8             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDatosAjustBasic.db:RomDatosAjustBasic'
+Loaded 1 design.
+Current design is 'RomDatosAjustBasic'.
+INFO: Reading verilog ../source/FSMDivi.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FSMDivi.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FSMDivi.v
+
+Statistics for case statements in always block at line 23 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FSMDivi.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            24            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine FSMDivi line 16 in file
+		'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FSMDivi.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       PRE_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FSMDivi.db:FSMDivi'
+Loaded 1 design.
+Current design is 'FSMDivi'.
+INFO: Reading verilog ../source/RomDecComp.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDecComp.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDecComp.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomDecComp.db:RomDecComp'
+Loaded 1 design.
+Current design is 'RomDecComp'.
+INFO: Reading verilog ../source/FullAdder.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullAdder.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullAdder.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullAdder.db:FullAdder'
+Loaded 1 design.
+Current design is 'FullAdder'.
+INFO: Reading verilog ../source/RomRegRotate16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomRegRotate16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomRegRotate16bits.v
+
+Statistics for case statements in always block at line 7 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomRegRotate16bits.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            8             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomRegRotate16bits.db:RomRegRotate16bits'
+Loaded 1 design.
+Current design is 'RomRegRotate16bits'.
+INFO: Reading verilog ../source/FullComple2.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2.db:FullComple2'
+Loaded 1 design.
+Current design is 'FullComple2'.
+INFO: Reading verilog ../source/RomopFL.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomopFL.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomopFL.v
+
+Statistics for case statements in always block at line 10 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomopFL.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            11            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RomopFL.db:RomopFL'
+Loaded 1 design.
+Current design is 'RomopFL'.
+INFO: Reading verilog ../source/FullComple2inc.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2inc.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2inc.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullComple2inc.db:FullComple2inc'
+Loaded 1 design.
+Current design is 'FullComple2inc'.
+INFO: Reading verilog ../source/RotateBasicModule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RotateBasicModule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RotateBasicModule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/RotateBasicModule.db:RotateBasicModule'
+Loaded 1 design.
+Current design is 'RotateBasicModule'.
+INFO: Reading verilog ../source/FullDivi.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullDivi.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullDivi.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/FullDivi.db:FullDivi'
+Loaded 1 design.
+Current design is 'FullDivi'.
+INFO: Reading verilog ../source/SemiAdder16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder16bits.v
+Warning:  /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder16bits.v:12: the undeclared symbol 'C3' assumed to have the default net type, which is 'wire'. (VER-936)
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder16bits.db:SemiAdder16bits'
+Loaded 1 design.
+Current design is 'SemiAdder16bits'.
+INFO: Reading verilog ../source/Multi.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Multi.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Multi.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Multi.db:Multi'
+Loaded 1 design.
+Current design is 'Multi'.
+INFO: Reading verilog ../source/SemiAdder8bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder8bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder8bits.v
+Warning:  /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder8bits.v:12: the undeclared symbol 'C3' assumed to have the default net type, which is 'wire'. (VER-936)
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdder8bits.db:SemiAdder8bits'
+Loaded 1 design.
+Current design is 'SemiAdder8bits'.
+INFO: Reading verilog ../source/Mux16a1de1bit.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux16a1de1bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux16a1de1bit.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux16a1de1bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            10            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux16a1de1bit.db:Mux16a1de1bit'
+Loaded 1 design.
+Current design is 'Mux16a1de1bit'.
+INFO: Reading verilog ../source/SemiAdderFin.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderFin.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderFin.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderFin.db:SemiAdderFin'
+Loaded 1 design.
+Current design is 'SemiAdderFin'.
+INFO: Reading verilog ../source/Mux2a1de16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de16bits.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de16bits.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de16bits.db:Mux2a1de16bits'
+Loaded 1 design.
+Current design is 'Mux2a1de16bits'.
+INFO: Reading verilog ../source/SemiAdderIni.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderIni.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderIni.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/SemiAdderIni.db:SemiAdderIni'
+Loaded 1 design.
+Current design is 'SemiAdderIni'.
+INFO: Reading verilog ../source/Mux2a1de8bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de8bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de8bits.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de8bits.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux2a1de8bits.db:Mux2a1de8bits'
+Loaded 1 design.
+Current design is 'Mux2a1de8bits'.
+INFO: Reading verilog ../source/ShiftBasicModule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ShiftBasicModule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ShiftBasicModule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/ShiftBasicModule.db:ShiftBasicModule'
+Loaded 1 design.
+Current design is 'ShiftBasicModule'.
+INFO: Reading verilog ../source/Mux4a1de16bits.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de16bits.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de16bits.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de16bits.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de16bits.db:Mux4a1de16bits'
+Loaded 1 design.
+Current design is 'Mux4a1de16bits'.
+INFO: Reading verilog ../source/UnidadProducto.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/UnidadProducto.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/UnidadProducto.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/UnidadProducto.db:UnidadProducto'
+Loaded 1 design.
+Current design is 'UnidadProducto'.
+INFO: Reading verilog ../source/Mux4a1de1bit.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de1bit.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de1bit.v
+
+Statistics for case statements in always block at line 8 in file
+	'/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de1bit.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            9             |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/Mux4a1de1bit.db:Mux4a1de1bit'
+Loaded 1 design.
+Current design is 'Mux4a1de1bit'.
+INFO: Reading verilog ../source/XORmodule.v
+Loading verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/XORmodule.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/XORmodule.v
+Presto compilation completed successfully.
+Current design is now '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/source/XORmodule.db:XORmodule'
+Loaded 1 design.
+Current design is 'XORmodule'.
+Error: can't read "files": no such variable
+	Use error_info for more info. (CMD-013)
+Current design is 'ALU'.
+Error: Cannot find the design 'ALU' in the library 'WORK'. (LBR-0)
+
+  Linking design 'ALU'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  saed90nm_max (library)      /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/libs/saed90nm_max.db
+
+Writing ddc file '../dbs/precompile_design.ddc'.
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5-1
+Date:        Sun Oct 19 14:28:10 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     61
+    Feedthrough (LINT-29)                                          17
+    Shorted outputs (LINT-31)                                      25
+    Constant outputs (LINT-52)                                     19
+
+Cells                                                              99
+    Connected to power or ground (LINT-32)                         27
+    Nets connected to multiple pins on same cell (LINT-33)         72
+--------------------------------------------------------------------------------
+
+Warning: In design 'AjustBasicModule', input port 'Ain[15]' is connected directly to output port 'A[15]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[14]' is connected directly to output port 'A[14]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[13]' is connected directly to output port 'A[13]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[12]' is connected directly to output port 'A[12]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[11]' is connected directly to output port 'A[11]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[10]' is connected directly to output port 'A[10]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[9]' is connected directly to output port 'A[9]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[8]' is connected directly to output port 'A[8]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[7]' is connected directly to output port 'A[7]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[6]' is connected directly to output port 'A[6]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[5]' is connected directly to output port 'A[5]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[4]' is connected directly to output port 'A[4]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[3]' is connected directly to output port 'A[3]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[2]' is connected directly to output port 'A[2]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[1]' is connected directly to output port 'A[1]'. (LINT-29)
+Warning: In design 'AjustBasicModule', input port 'Ain[0]' is connected directly to output port 'A[0]'. (LINT-29)
+Warning: In design 'MuxShiftRightSimpleArit', input port 'A[15]' is connected directly to output port 'R[15]'. (LINT-29)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[1]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[3]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[5]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[8]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[12]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[13]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to output port 'FLAGS[14]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[11]' is connected directly to output port 'FL[1]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[10]' is connected directly to output port 'FL[5]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[9]' is connected directly to output port 'IF'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[7]' is connected directly to output port 'FL[2]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[6]' is connected directly to output port 'FL[3]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[2]' is connected directly to output port 'FL[0]'. (LINT-31)
+Warning: In design 'ALU', output port 'FLAGS[0]' is connected directly to output port 'FL[4]'. (LINT-31)
+Warning: In design 'UnidadProducto', output port 'OF' is connected directly to output port 'CF'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[0]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[3]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[4]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[7]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[9]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[10]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[11]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[12]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[13]'. (LINT-31)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to output port 'Sal[14]'. (LINT-31)
+Warning: In design 'ALU', a pin on submodule 'MuxSal' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A2[7]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxSal' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A2[6]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxSal' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A2[5]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxSal' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A2[4]' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxCF' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A6' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxCF' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A7' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxOF' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A6' is connected to logic 0. 
+Warning: In design 'ALU', a pin on submodule 'MuxOF' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A7' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[15]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[14]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[13]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[12]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[11]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[10]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[9]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeEntrada' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A1[8]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[15]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[14]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[13]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[12]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[11]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[10]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[9]' is connected to logic 0. 
+Warning: In design 'UnidadProducto', a pin on submodule 'MuxdeopAAMDC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A3[8]' is connected to logic 0. 
+Warning: In design 'ShiftBasicModule', a pin on submodule 'CarryRight' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A15' is connected to logic 0. 
+Warning: In design 'ShiftBasicModule', a pin on submodule 'CarryLeft' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A15' is connected to logic 0. 
+Warning: In design 'Divi16x16bits', a pin on submodule 'MuxdeC' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'A0' is connected to logic 1. 
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[15]' is connected to pins 'A0[15]', 'A2[15]'', 'A3[15]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[14]' is connected to pins 'A0[14]', 'A2[14]'', 'A3[14]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[13]' is connected to pins 'A0[13]', 'A2[13]'', 'A3[13]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[12]' is connected to pins 'A0[12]', 'A2[12]'', 'A3[12]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[11]' is connected to pins 'A0[11]', 'A2[11]'', 'A3[11]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[10]' is connected to pins 'A0[10]', 'A2[10]'', 'A3[10]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[9]' is connected to pins 'A0[9]', 'A2[9]'', 'A3[9]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[8]' is connected to pins 'A0[8]', 'A2[8]'', 'A3[8]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[7]' is connected to pins 'A0[7]', 'A3[7]''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[6]' is connected to pins 'A0[6]', 'A3[6]''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[5]' is connected to pins 'A0[5]', 'A3[5]''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[4]' is connected to pins 'A0[4]', 'A3[4]''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[3]' is connected to pins 'A0[3]', 'A2[3]'', 'A3[3]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[2]' is connected to pins 'A0[2]', 'A2[2]'', 'A3[2]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[1]' is connected to pins 'A0[1]', 'A2[1]'', 'A3[1]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net 'RA[0]' is connected to pins 'A0[0]', 'A2[0]'', 'A3[0]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxSal'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'A2[7]', 'A2[6]'', 'A2[5]', 'A2[4]'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxCF'. (LINT-33)
+   Net 'CFC' is connected to pins 'A2', 'A3''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxCF'. (LINT-33)
+   Net 'CFD' is connected to pins 'A4', 'A5''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxCF'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'A6', 'A7''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxOF'. (LINT-33)
+   Net 'OFA' is connected to pins 'A0', 'A2'', 'A3'.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxOF'. (LINT-33)
+   Net 'OFD' is connected to pins 'A4', 'A5''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxOF'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'A6', 'A7''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxAF'. (LINT-33)
+   Net 'AFA' is connected to pins 'A0', 'A1''.
+Warning: In design 'ALU', the same net is connected to more than one pin on submodule 'MuxAF'. (LINT-33)
+   Net 'AFC' is connected to pins 'A2', 'A3''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeEntrada'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'A1[15]', 'A1[14]'', 'A1[13]', 'A1[12]', 'A1[11]', 'A1[10]', 'A1[9]', 'A1[8]'.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'CompA2R1'. (LINT-33)
+   Net 'c2out' is connected to pins 'Cin', 'cmp''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[7]' is connected to pins 'A0[7]', 'A1[7]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[6]' is connected to pins 'A0[6]', 'A1[6]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[5]' is connected to pins 'A0[5]', 'A1[5]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[4]' is connected to pins 'A0[4]', 'A1[4]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[3]' is connected to pins 'A0[3]', 'A1[3]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[2]' is connected to pins 'A0[2]', 'A1[2]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[1]' is connected to pins 'A0[1]', 'A1[1]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'AjustedeDIV'. (LINT-33)
+   Net 'C2R1[0]' is connected to pins 'A0[0]', 'A1[0]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeopAAMDC'. (LINT-33)
+   Net 'A[7]' is connected to pins 'A0[15]', 'A0[14]'', 'A0[13]', 'A0[12]', 'A0[11]', 'A0[10]', 'A0[9]', 'A0[8]', 'A0[7]'.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeopAAMDC'. (LINT-33)
+   Net 'A[15]' is connected to pins 'A1[15]', 'A1[14]'', 'A1[13]', 'A1[12]', 'A1[11]', 'A1[10]', 'A1[9]', 'A1[8]', 'A1[7]', 'A1[6]', 'A1[5]', 'A1[4]', 'A1[3]', 'A1[2]', 'A1[1]', 'A1[0]'.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeopAAMDC'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'A3[15]', 'A3[14]'', 'A3[13]', 'A3[12]', 'A3[11]', 'A3[10]', 'A3[9]', 'A3[8]'.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[15]' is connected to pins 'A0[15]', 'A1[15]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[14]' is connected to pins 'A0[14]', 'A1[14]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[13]' is connected to pins 'A0[13]', 'A1[13]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[12]' is connected to pins 'A0[12]', 'A1[12]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[11]' is connected to pins 'A0[11]', 'A1[11]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[10]' is connected to pins 'A0[10]', 'A1[10]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[9]' is connected to pins 'A0[9]', 'A1[9]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[8]' is connected to pins 'A0[8]', 'A1[8]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[7]' is connected to pins 'A0[7]', 'A1[7]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[6]' is connected to pins 'A0[6]', 'A1[6]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[5]' is connected to pins 'A0[5]', 'A1[5]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[4]' is connected to pins 'A0[4]', 'A1[4]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[3]' is connected to pins 'A0[3]', 'A1[3]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[2]' is connected to pins 'A0[2]', 'A1[2]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[1]' is connected to pins 'A0[1]', 'A1[1]''.
+Warning: In design 'UnidadProducto', the same net is connected to more than one pin on submodule 'MuxdeR1'. (LINT-33)
+   Net 'opR[0]' is connected to pins 'A0[0]', 'A1[0]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[15]' is connected to pins 'A0[15]', 'A2[15]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[14]' is connected to pins 'A0[14]', 'A2[14]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[13]' is connected to pins 'A0[13]', 'A2[13]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[12]' is connected to pins 'A0[12]', 'A2[12]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[11]' is connected to pins 'A0[11]', 'A2[11]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[10]' is connected to pins 'A0[10]', 'A2[10]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[9]' is connected to pins 'A0[9]', 'A2[9]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[8]' is connected to pins 'A0[8]', 'A2[8]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[7]' is connected to pins 'A0[7]', 'A2[7]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[6]' is connected to pins 'A0[6]', 'A2[6]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[5]' is connected to pins 'A0[5]', 'A2[5]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[4]' is connected to pins 'A0[4]', 'A2[4]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[3]' is connected to pins 'A0[3]', 'A2[3]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[2]' is connected to pins 'A0[2]', 'A2[2]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[1]' is connected to pins 'A0[1]', 'A2[1]''.
+Warning: In design 'ShiftBasicModule', the same net is connected to more than one pin on submodule 'Mux'. (LINT-33)
+   Net 'RSHL[0]' is connected to pins 'A0[0]', 'A2[0]''.
+Warning: In design 'Comple2d16bits', the same net is connected to more than one pin on submodule 'FC0'. (LINT-33)
+   Net 'cmp' is connected to pins 'Cin', 'cmp''.
+Warning: In design 'Divi16bits', the same net is connected to more than one pin on submodule 'FD0'. (LINT-33)
+   Net 'Comp' is connected to pins 'Comp', 'Cin''.
+Warning: In design 'ALU', output port 'FLAGS[15]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[14]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[13]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[12]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[8]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'ALU', output port 'FLAGS[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[15]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[14]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[13]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[12]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[11]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[10]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[9]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'RomDatosAjustBasic', output port 'Sal[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 160 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+Information: Uniquified 2 instances of design 'Mux8a1de1bit'. (OPT-1056)
+Information: Uniquified 4 instances of design 'Reg16bitsEnaDown'. (OPT-1056)
+Information: Uniquified 21 instances of design 'Reg1bitEnaDown'. (OPT-1056)
+Information: Uniquified 52 instances of design 'FullAdder'. (OPT-1056)
+Information: Uniquified 77 instances of design 'FullComple2'. (OPT-1056)
+Information: Uniquified 3 instances of design 'FullComple2inc'. (OPT-1056)
+Information: Uniquified 16 instances of design 'FullDivi'. (OPT-1056)
+Information: Uniquified 4 instances of design 'Mux16a1de1bit'. (OPT-1056)
+Information: Uniquified 2 instances of design 'SemiAdderFin'. (OPT-1056)
+Information: Uniquified 9 instances of design 'Mux2a1de16bits'. (OPT-1056)
+Information: Uniquified 2 instances of design 'SemiAdderIni'. (OPT-1056)
+Information: Uniquified 6 instances of design 'Mux4a1de16bits'. (OPT-1056)
+Information: Uniquified 2 instances of design 'Mux4a1de1bit'. (OPT-1056)
+  Simplifying Design 'ALU'
+
+Information: Ungrouping hierarchy REGA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy Ajuste before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy MuxSal before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy MuxSalFinal before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy MuxCF before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy MuxAF before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy Parid before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy Zer before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy RomdeopFL before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy MuxOF before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGD before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGB before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy REGF4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy Ajuste/Rom before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/AND before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/OR before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/XOR before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/DecSal before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxAMAD before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/ActivadorD before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/DecoComple before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Multiplicador before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AjustedeDIV before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxR2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxR1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxdeEntrada before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/MuxRDatos before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy Ajuste/MuxB before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxdeR1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/MuxdeopAAMDC before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/MuxRDatos before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/CorrimientoRS before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/CorrimientoLS before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/CorrimientoRSA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/CarryRight before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/RotacionRCR before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/RotacionRCL before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/RotacionROL before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/RotacionROR before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC31 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/MaqEstDivi before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeRE before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/AdderdeAAM/AD1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU1/Adder/AD1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R1/FC0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC30 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC29 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC28 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC27 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC26 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC25 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC24 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC23 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC22 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC21 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC20 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC19 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC18 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC17 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC16 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2A/FC1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2R2/FC15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/CompA2B/FC15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/MuxdeC before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/MuxdeA0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/CarryLeft before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/MuxResiduo before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/MuxdeA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/Mux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/SHI/Mux before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ALU2/ROT/MuxC before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/RomSel before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/RegDeC/Q0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD14 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD13 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD12 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD11 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD10 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD9 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD8 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD15 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/Sum/AD0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD15/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD14/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD13/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD12/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD11/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD10/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD9/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD8/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD7/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD6/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD5/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD4/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD3/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD2/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD1/FA before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy UnidPro/Divisor/D15/FD0/FA before Pass 1 (OPT-776)
+Information: Ungrouping 240 of 241 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ALU'
+ Implement Synthetic for 'ALU'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'ALU'. (DDB-72)
+Information: There is no timing violation in design ALU. Delay-based auto_ungroup will not be performed. (OPT-780)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:14   26165.1      0.00       0.0      14.9                           90954256.0000
+    0:00:14   26122.8      0.00       0.0      14.9                           90837936.0000
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+  Beginning Constant Register Removal
+  -----------------------------------
+    0:00:14   26550.4      0.00       0.0      14.7                           96785696.0000
+    0:00:14   26550.4      0.00       0.0      14.7                           96785696.0000
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+  Global Optimization (Phase 53)
+  Global Optimization (Phase 54)
+  Global Optimization (Phase 55)
+  Global Optimization (Phase 56)
+  Global Optimization (Phase 57)
+  Global Optimization (Phase 58)
+  Global Optimization (Phase 59)
+  Global Optimization (Phase 60)
+  Global Optimization (Phase 61)
+  Global Optimization (Phase 62)
+  Global Optimization (Phase 63)
+  Global Optimization (Phase 64)
+  Global Optimization (Phase 65)
+  Global Optimization (Phase 66)
+  Global Optimization (Phase 67)
+  Global Optimization (Phase 68)
+  Global Optimization (Phase 69)
+  Global Optimization (Phase 70)
+  Global Optimization (Phase 71)
+  Global Optimization (Phase 72)
+  Global Optimization (Phase 73)
+  Global Optimization (Phase 74)
+  Global Optimization (Phase 75)
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+  Beginning Isolate Ports
+  -----------------------
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:15   24646.3      0.00       0.0       7.9                           80014528.0000
+    0:00:15   24646.3      0.00       0.0       7.9                           80014528.0000
+    0:00:15   24646.3      0.00       0.0       7.9                           80014528.0000
+    0:00:15   24646.3      0.00       0.0       7.9                           80014528.0000
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+    0:00:16   24642.7      0.00       0.0       7.7                           80011600.0000
+    0:00:16   24642.7      0.00       0.0       7.7                           80011600.0000
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:17   24637.1      0.00       0.0       7.5                           79288208.0000
+    0:00:17   24637.1      0.00       0.0       7.5                           79288208.0000
+    0:00:17   24637.1      0.00       0.0       7.5                           79288208.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+
+
+  Beginning Design Rule Fixing  (max_transition)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:18   24637.1      0.00       0.0       7.4                           79173032.0000
+  Global Optimization (Phase 76)
+  Global Optimization (Phase 77)
+  Global Optimization (Phase 78)
+    0:00:18   24689.7      0.00       0.0       0.0                           79225040.0000
+    0:00:18   24689.7      0.00       0.0       0.0                           79225040.0000
+
+Threshold voltage group cell usage:
+>> saed90cell 100.00%
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:18   24689.7      0.00       0.0       0.0                           79225040.0000
+  Global Optimization (Phase 79)
+  Global Optimization (Phase 80)
+  Global Optimization (Phase 81)
+  Global Optimization (Phase 82)
+  Global Optimization (Phase 83)
+  Global Optimization (Phase 84)
+  Global Optimization (Phase 85)
+  Global Optimization (Phase 86)
+  Global Optimization (Phase 87)
+  Global Optimization (Phase 88)
+  Global Optimization (Phase 89)
+  Global Optimization (Phase 90)
+    0:00:19   24656.5      0.00       0.0       0.0                           78248656.0000
+    0:00:19   24656.5      0.00       0.0       0.0                           78248656.0000
+    0:00:19   24656.5      0.00       0.0       0.0                           78248656.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+    0:00:19   24654.6      0.00       0.0       0.0                           78227248.0000
+Loading db file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/libs/saed90nm_max.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Writing ddc file '../dbs/postcompile_design.ddc'.
+Warning: In the design ALU, net 'UnidPro/Divisor/RegDeC/Q0/*Logic0*' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS[11]' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS[10]' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS[9]' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS_7' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS_6' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS_2' is connecting multiple ports. (UCN-1)
+Warning: In the design ALU, net 'FLAGS_0' is connecting multiple ports. (UCN-1)
+Writing verilog file '/mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Tarea4/dbs/design.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
