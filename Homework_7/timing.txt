@@ -1,0 +1,88 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ALU
+Version: R-2020.09-SP5-1
+Date   : Fri Oct 31 17:29:14 2025
+****************************************
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+  Startpoint: op[0] (input port clocked by CLK)
+  Endpoint: REGF2_Q_reg
+            (falling edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ALU                35000                 saed90nm_max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.50       0.50 f
+  op[0] (in)                               0.00       0.50 f
+  U1592/ZN (INVX1)                       106.10     106.60 r
+  U1348/QN (NAND3X1)                     208.59     315.19 f
+  U1346/QN (NAND2X1)                       0.15     315.33 r
+  U2741/Q (AO21X1)                         0.50     315.83 r
+  U1902/QN (NAND2X0)                       0.40     316.23 f
+  U1413/Q (AND2X1)                         0.27     316.50 f
+  U1556/QN (NAND2X0)                       0.84     317.34 r
+  U1475/QN (NAND4X0)                       0.70     318.04 f
+  U1721/ZN (INVX0)                         0.54     318.58 r
+  U1950/QN (NAND3X0)                       0.35     318.93 f
+  U2869/Q (OA21X1)                         0.39     319.33 f
+  U1696/Z (NBUFFX2)                        0.76     320.09 f
+  U2141/ZN (INVX0)                         0.52     320.60 r
+  U1814/Z (NBUFFX2)                        0.86     321.46 r
+  U1464/Z (NBUFFX2)                        0.81     322.27 r
+  U3206/QN (NOR2X0)                        0.66     322.93 f
+  U3676/CO (FADDX1)                        0.63     323.55 f
+  U3703/S (FADDX1)                         0.67     324.23 f
+  U3694/S (FADDX1)                         0.59     324.81 f
+  U3715/CO (FADDX1)                        0.52     325.34 f
+  U3757/S (FADDX1)                         0.60     325.93 f
+  U3778/S (FADDX1)                         0.65     326.59 f
+  U1407/QN (NOR2X1)                        0.31     326.90 r
+  U1383/QN (NOR2X0)                        0.58     327.48 f
+  U1382/QN (NAND2X0)                       0.31     327.79 r
+  U1394/QN (NAND3X0)                       0.20     327.99 f
+  U1393/ZN (INVX0)                         0.27     328.26 r
+  U1607/Q (XOR2X1)                         0.36     328.62 f
+  U1512/Q (OR2X1)                          0.66     329.28 f
+  U1480/QN (NAND3X0)                       0.19     329.47 r
+  U1479/QN (NOR2X0)                        0.60     330.07 f
+  U1897/QN (NAND4X0)                       0.17     330.24 r
+  U1947/ZN (INVX0)                         0.31     330.55 f
+  U1858/Q (XOR2X1)                         0.50     331.05 f
+  U1330/QN (NAND2X1)                       0.21     331.26 r
+  U1596/QN (NAND2X0)                       0.29     331.55 f
+  U1511/Q (XOR2X1)                         0.45     331.99 f
+  U4207/Q (XOR3X1)                         0.74     332.74 f
+  U1530/QN (NAND2X1)                       0.14     332.88 r
+  U1521/QN (NAND2X1)                       0.15     333.03 f
+  REGF2_Q_reg/D (DFFNARX2)                 0.03     333.06 f
+  data arrival time                                 333.06
+
+  clock CLK (fall edge)                    0.50       0.50
+  clock network delay (ideal)              0.00       0.50
+  clock uncertainty                       -0.01       0.49
+  REGF2_Q_reg/CLK (DFFNARX2)               0.00       0.49 f
+  library setup time                      -0.26       0.23
+  data required time                                  0.23
+  -----------------------------------------------------------
+  data required time                                  0.23
+  data arrival time                                -333.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -332.83
+
+
+1
