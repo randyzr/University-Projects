@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ALU
+Version: R-2020.09-SP5-1
+Date   : Thu Oct 30 18:08:46 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_max (File: /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Homework7/SYN/libs/saed90nm_max.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ALU                    35000             saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   1.2276 mW   (76%)
+  Net Switching Power  = 384.9962 uW   (24%)
+                         ---------
+Total Dynamic Power    =   1.6126 mW  (100%)
+
+Cell Leakage Power     = 113.4874 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          13.5449           17.7192        9.4646e+06           40.7287  (   2.36%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.2141e+03          367.2776        1.0402e+08        1.6854e+03  (  97.64%)
+--------------------------------------------------------------------------------------------------
+Total          1.2276e+03 uW       384.9967 uW     1.1349e+08 pW     1.7261e+03 uW
+1
