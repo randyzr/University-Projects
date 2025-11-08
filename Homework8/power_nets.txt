@@ -1,0 +1,27 @@
+****************************************
+Report : Supply Net
+Design : ALU
+Corner : default
+Version: R-2020.09-SP6
+Date   : Sat Nov  8 13:32:57 2025
+****************************************
+------------------------------------------------------
+Supply Net              :  VDD
+Current Scope           :  / (top scope)
+Operating Voltage       :  -- Max --    -- Min --
+                           --           --
+Supply States           :  
+Available Power Domains :  VCC (*)
+Supply Ports            :
+Resolve Type            :  unresolved
+------------------------------------------------------
+Supply Net              :  VSS
+Current Scope           :  / (top scope)
+Operating Voltage       :  -- Max --    -- Min --
+                           --           --
+Supply States           :  
+Available Power Domains :  VCC (*)
+Supply Ports            :
+Resolve Type            :  unresolved
+------------------------------------------------------
+1
