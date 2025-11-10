@@ -1,0 +1,1522 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 20
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Mon Nov 10 11:19:49 2025
+****************************************
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: REGF2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U1400/Z (NBUFFX2)                                0.16      1.52 f
+  U2126/ZN (INVX0)                                 0.06      1.58 r
+  U2310/QN (AOI22X1)                               0.38      1.96 f
+  U1709/Z (NBUFFX2)                                0.17      2.13 f
+  U2229/QN (NAND2X0)                               0.15      2.28 r
+  U1763/Q (MUX21X1)                                0.32      2.60 r
+  U1411/QN (NAND2X1)                               0.13      2.73 f
+  U2749/Q (AND2X1)                                 0.20      2.93 f
+  U1684/QN (NOR2X0)                                0.16      3.10 r
+  U2750/ZN (INVX0)                                 0.19      3.29 f
+  U2341/Z (NBUFFX2)                                0.20      3.49 f
+  U2751/Z (NBUFFX2)                                0.16      3.65 f
+  U2384/Z (NBUFFX2)                                0.16      3.81 f
+  U1755/Z (NBUFFX2)                                0.16      3.96 f
+  U1923/QN (NOR2X0)                                0.19      4.15 r
+  U2337/S (FADDX1)                                 0.53      4.68 f
+  U2326/S (FADDX1)                                 0.49      5.17 f
+  U2309/S (FADDX1)                                 0.44      5.61 f
+  U2373/S (FADDX1)                                 0.44      6.05 f
+  U2999/S (FADDX1)                                 0.44      6.49 f
+  U3159/S (FADDX1)                                 0.41      6.89 f
+  U1891/QN (NOR2X0)                                0.13      7.02 r
+  U3257/ZN (INVX0)                                 0.12      7.14 f
+  U1888/ZN (INVX0)                                 0.08      7.22 r
+  U3165/QN (NOR2X0)                                0.09      7.31 f
+  U3167/QN (AOI21X1)                               0.40      7.71 r
+  U1683/Q (OA21X1)                                 0.27      7.97 r
+  U1682/Q (XNOR2X1)                                0.40      8.37 r
+  U3276/Q (MUX21X1)                                0.26      8.63 r
+  U1475/QN (NAND2X0)                               0.17      8.80 f
+  U3277/ZN (INVX0)                                 0.12      8.92 r
+  U1687/Q (AND2X1)                                 0.22      9.14 r
+  U1423/QN (NAND4X0)                               0.21      9.35 f
+  U1422/Q (OR2X1)                                  0.24      9.59 f
+  U2418/Q (XNOR2X1)                                0.36      9.96 r
+  U2200/QN (NAND2X0)                               0.13     10.09 f
+  U2451/QN (NAND2X1)                               0.13     10.21 r
+  U2377/Q (XNOR3X1)                                0.60     10.81 f
+  U4067/Q (XNOR3X1)                                0.59     11.40 f
+  U1435/QN (NAND2X1)                               0.10     11.50 r
+  U1425/QN (NAND2X1)                               0.10     11.60 f
+  REGF2_Q_reg/D (DFFNARX2)                         0.00     11.60 f
+  data arrival time                                         11.60
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  REGF2_Q_reg/CLK (DFFNARX2)                       0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                        -11.60
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                         -11.47
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: REGF6_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U1400/Z (NBUFFX2)                                0.16      1.52 f
+  U2126/ZN (INVX0)                                 0.06      1.58 r
+  U2310/QN (AOI22X1)                               0.38      1.96 f
+  U1709/Z (NBUFFX2)                                0.17      2.13 f
+  U2229/QN (NAND2X0)                               0.15      2.28 r
+  U1763/Q (MUX21X1)                                0.32      2.60 r
+  U1411/QN (NAND2X1)                               0.13      2.73 f
+  U2749/Q (AND2X1)                                 0.20      2.93 f
+  U1684/QN (NOR2X0)                                0.16      3.10 r
+  U2750/ZN (INVX0)                                 0.19      3.29 f
+  U2341/Z (NBUFFX2)                                0.20      3.49 f
+  U2751/Z (NBUFFX2)                                0.16      3.65 f
+  U2384/Z (NBUFFX2)                                0.16      3.81 f
+  U1755/Z (NBUFFX2)                                0.16      3.96 f
+  U1923/QN (NOR2X0)                                0.19      4.15 r
+  U2337/S (FADDX1)                                 0.53      4.68 f
+  U2326/S (FADDX1)                                 0.49      5.17 f
+  U2309/S (FADDX1)                                 0.44      5.61 f
+  U2373/S (FADDX1)                                 0.44      6.05 f
+  U2999/S (FADDX1)                                 0.44      6.49 f
+  U3159/S (FADDX1)                                 0.41      6.89 f
+  U1891/QN (NOR2X0)                                0.13      7.02 r
+  U3257/ZN (INVX0)                                 0.12      7.14 f
+  U1888/ZN (INVX0)                                 0.08      7.22 r
+  U3165/QN (NOR2X0)                                0.09      7.31 f
+  U3167/QN (AOI21X1)                               0.40      7.71 r
+  U1683/Q (OA21X1)                                 0.27      7.97 r
+  U1682/Q (XNOR2X1)                                0.40      8.37 r
+  U3276/Q (MUX21X1)                                0.26      8.63 r
+  U1475/QN (NAND2X0)                               0.17      8.80 f
+  U3277/ZN (INVX0)                                 0.12      8.92 r
+  U1687/Q (AND2X1)                                 0.22      9.14 r
+  U1423/QN (NAND4X0)                               0.21      9.35 f
+  U1422/Q (OR2X1)                                  0.24      9.59 f
+  U2418/Q (XNOR2X1)                                0.36      9.96 r
+  U2200/QN (NAND2X0)                               0.13     10.09 f
+  U2451/QN (NAND2X1)                               0.13     10.21 r
+  U4040/Z (NBUFFX2)                                0.17     10.38 r
+  U4552/Q (OR4X1)                                  0.22     10.60 r
+  U4553/QN (NOR2X0)                                0.11     10.71 f
+  U2602/Q (AO21X1)                                 0.28     10.99 f
+  REGF6_Q_reg/D (DFFNARX1)                         0.00     10.99 f
+  data arrival time                                         10.99
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  REGF6_Q_reg/CLK (DFFNARX1)                       0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.33      0.06
+  data required time                                         0.06
+  ------------------------------------------------------------------------
+  data required time                                         0.06
+  data arrival time                                        -10.99
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                         -10.93
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: REGF11_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U1400/Z (NBUFFX2)                                0.16      1.52 f
+  U2126/ZN (INVX0)                                 0.06      1.58 r
+  U2310/QN (AOI22X1)                               0.38      1.96 f
+  U1709/Z (NBUFFX2)                                0.17      2.13 f
+  U2229/QN (NAND2X0)                               0.15      2.28 r
+  U1763/Q (MUX21X1)                                0.32      2.60 r
+  U1411/QN (NAND2X1)                               0.13      2.73 f
+  U2749/Q (AND2X1)                                 0.20      2.93 f
+  U1684/QN (NOR2X0)                                0.16      3.10 r
+  U2750/ZN (INVX0)                                 0.19      3.29 f
+  U2341/Z (NBUFFX2)                                0.20      3.49 f
+  U2751/Z (NBUFFX2)                                0.16      3.65 f
+  U2384/Z (NBUFFX2)                                0.16      3.81 f
+  U1755/Z (NBUFFX2)                                0.16      3.96 f
+  U1923/QN (NOR2X0)                                0.19      4.15 r
+  U2337/S (FADDX1)                                 0.53      4.68 f
+  U2326/S (FADDX1)                                 0.49      5.17 f
+  U2309/S (FADDX1)                                 0.44      5.61 f
+  U2373/CO (FADDX1)                                0.37      5.98 f
+  U2499/CO (FADDX1)                                0.37      6.35 f
+  U2500/S (FADDX1)                                 0.43      6.79 f
+  U3020/S (FADDX1)                                 0.41      7.19 f
+  U2998/QN (NOR2X0)                                0.16      7.35 r
+  U3168/QN (OAI21X1)                               0.38      7.74 f
+  U1697/Q (AND2X1)                                 0.19      7.93 f
+  U1693/Q (OR3X1)                                  0.31      8.24 f
+  U2365/ZN (INVX0)                                 0.11      8.35 r
+  U3283/ZN (INVX0)                                 0.10      8.45 f
+  U4321/QN (AOI21X1)                               0.35      8.80 r
+  U4362/QN (OAI21X1)                               0.32      9.12 f
+  U4367/Q (XNOR2X1)                                0.33      9.45 f
+  U1463/QN (NOR4X0)                                0.27      9.72 r
+  U1810/QN (NAND4X0)                               0.19      9.91 f
+  U1404/QN (NAND2X1)                               0.12     10.03 r
+  U1863/QN (OAI21X1)                               0.29     10.32 f
+  U2437/Q (MUX21X1)                                0.25     10.57 f
+  U1402/QN (NAND2X1)                               0.09     10.66 r
+  U1403/QN (NAND2X1)                               0.10     10.76 f
+  REGF11_Q_reg/D (DFFNARX2)                        0.00     10.76 f
+  data arrival time                                         10.76
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  REGF11_Q_reg/CLK (DFFNARX2)                      0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                        -10.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                         -10.63
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: REGF7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U1400/Z (NBUFFX2)                                0.16      1.52 f
+  U2126/ZN (INVX0)                                 0.06      1.58 r
+  U2310/QN (AOI22X1)                               0.38      1.96 f
+  U1709/Z (NBUFFX2)                                0.17      2.13 f
+  U2229/QN (NAND2X0)                               0.15      2.28 r
+  U1763/Q (MUX21X1)                                0.32      2.60 r
+  U1411/QN (NAND2X1)                               0.13      2.73 f
+  U2749/Q (AND2X1)                                 0.20      2.93 f
+  U1684/QN (NOR2X0)                                0.16      3.10 r
+  U2750/ZN (INVX0)                                 0.19      3.29 f
+  U2341/Z (NBUFFX2)                                0.20      3.49 f
+  U2751/Z (NBUFFX2)                                0.16      3.65 f
+  U2384/Z (NBUFFX2)                                0.16      3.81 f
+  U1755/Z (NBUFFX2)                                0.16      3.96 f
+  U1923/QN (NOR2X0)                                0.19      4.15 r
+  U2337/S (FADDX1)                                 0.53      4.68 f
+  U2326/S (FADDX1)                                 0.49      5.17 f
+  U2309/S (FADDX1)                                 0.44      5.61 f
+  U2373/S (FADDX1)                                 0.44      6.05 f
+  U2999/S (FADDX1)                                 0.44      6.49 f
+  U3159/S (FADDX1)                                 0.41      6.89 f
+  U1891/QN (NOR2X0)                                0.13      7.02 r
+  U3257/ZN (INVX0)                                 0.12      7.14 f
+  U1888/ZN (INVX0)                                 0.08      7.22 r
+  U3165/QN (NOR2X0)                                0.09      7.31 f
+  U3167/QN (AOI21X1)                               0.40      7.71 r
+  U1683/Q (OA21X1)                                 0.27      7.97 r
+  U1682/Q (XNOR2X1)                                0.40      8.37 r
+  U3276/Q (MUX21X1)                                0.26      8.63 r
+  U1475/QN (NAND2X0)                               0.17      8.80 f
+  U3277/ZN (INVX0)                                 0.12      8.92 r
+  U1687/Q (AND2X1)                                 0.22      9.14 r
+  U1423/QN (NAND4X0)                               0.21      9.35 f
+  U3278/Z (NBUFFX2)                                0.22      9.57 f
+  U2251/ZN (INVX0)                                 0.07      9.64 r
+  U2423/QN (NAND3X0)                               0.13      9.77 f
+  U2422/Q (XOR2X1)                                 0.30     10.08 f
+  U1458/Q (AO21X1)                                 0.29     10.37 f
+  U4541/QN (NAND2X0)                               0.10     10.47 r
+  U4543/QN (NAND2X0)                               0.14     10.61 f
+  REGF7_Q_reg/D (DFFNARX1)                         0.00     10.61 f
+  data arrival time                                         10.61
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  REGF7_Q_reg/CLK (DFFNARX1)                       0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.35      0.05
+  data required time                                         0.05
+  ------------------------------------------------------------------------
+  data required time                                         0.05
+  data arrival time                                        -10.61
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                         -10.56
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: REGF0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U1400/Z (NBUFFX2)                                0.16      1.52 f
+  U2126/ZN (INVX0)                                 0.06      1.58 r
+  U2310/QN (AOI22X1)                               0.38      1.96 f
+  U1709/Z (NBUFFX2)                                0.17      2.13 f
+  U2229/QN (NAND2X0)                               0.15      2.28 r
+  U1763/Q (MUX21X1)                                0.32      2.60 r
+  U1411/QN (NAND2X1)                               0.13      2.73 f
+  U2749/Q (AND2X1)                                 0.20      2.93 f
+  U1684/QN (NOR2X0)                                0.16      3.10 r
+  U2750/ZN (INVX0)                                 0.19      3.29 f
+  U2341/Z (NBUFFX2)                                0.20      3.49 f
+  U2751/Z (NBUFFX2)                                0.16      3.65 f
+  U2384/Z (NBUFFX2)                                0.16      3.81 f
+  U1755/Z (NBUFFX2)                                0.16      3.96 f
+  U1923/QN (NOR2X0)                                0.19      4.15 r
+  U2337/S (FADDX1)                                 0.53      4.68 f
+  U2326/S (FADDX1)                                 0.49      5.17 f
+  U2309/S (FADDX1)                                 0.44      5.61 f
+  U2373/CO (FADDX1)                                0.37      5.98 f
+  U2499/CO (FADDX1)                                0.37      6.35 f
+  U2500/S (FADDX1)                                 0.43      6.79 f
+  U3020/S (FADDX1)                                 0.41      7.19 f
+  U2998/QN (NOR2X0)                                0.16      7.35 r
+  U3168/QN (OAI21X1)                               0.38      7.74 f
+  U1697/Q (AND2X1)                                 0.19      7.93 f
+  U1693/Q (OR3X1)                                  0.31      8.24 f
+  U2365/ZN (INVX0)                                 0.11      8.35 r
+  U3283/ZN (INVX0)                                 0.10      8.45 f
+  U4321/QN (AOI21X1)                               0.35      8.80 r
+  U4362/QN (OAI21X1)                               0.32      9.12 f
+  U4367/Q (XNOR2X1)                                0.33      9.45 f
+  U1463/QN (NOR4X0)                                0.27      9.72 r
+  U1810/QN (NAND4X0)                               0.19      9.91 f
+  U1404/QN (NAND2X1)                               0.12     10.03 r
+  U1828/QN (NAND3X0)                               0.12     10.14 f
+  U1461/QN (NAND2X0)                               0.11     10.25 r
+  U1459/QN (NAND2X0)                               0.12     10.38 f
+  REGF0_Q_reg/D (DFFNARX1)                         0.00     10.38 f
+  data arrival time                                         10.38
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  REGF0_Q_reg/CLK (DFFNARX1)                       0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.34      0.05
+  data required time                                         0.05
+  ------------------------------------------------------------------------
+  data required time                                         0.05
+  data arrival time                                        -10.38
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                         -10.33
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeRE_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U2283/Q (AND2X1)                                 0.21      4.53 r
+  U4073/ZN (INVX0)                                 0.09      4.62 f
+  U2269/Q (OA21X1)                                 0.27      4.89 f
+  U4129/Q (XOR2X1)                                 0.28      5.17 f
+  U4130/Q (OA22X1)                                 0.27      5.44 f
+  U4147/QN (NAND2X0)                               0.11      5.55 r
+  U2091/QN (NAND2X0)                               0.13      5.68 f
+  U1414/Q (OA22X1)                                 0.28      5.95 f
+  U1413/QN (NAND2X0)                               0.13      6.08 r
+  U4149/QN (NAND2X0)                               0.15      6.23 f
+  U2278/QN (OAI22X1)                               0.40      6.63 r
+  U2277/Q (AO22X1)                                 0.25      6.88 r
+  U1850/QN (NAND2X0)                               0.14      7.03 f
+  U1852/QN (NAND3X0)                               0.14      7.17 r
+  U4161/QN (NAND2X0)                               0.16      7.33 f
+  U1419/QN (NAND2X1)                               0.11      7.44 r
+  U2255/QN (NAND2X0)                               0.17      7.60 f
+  U2364/QN (NAND3X0)                               0.12      7.73 r
+  U1356/QN (OAI21X2)                               0.41      8.14 f
+  U1388/CO (FADDX2)                                0.38      8.52 f
+  U2299/QN (NAND3X0)                               0.11      8.63 r
+  U2298/QN (NAND2X1)                               0.14      8.77 f
+  U2276/Q (OA21X1)                                 0.29      9.06 f
+  U2204/ZN (INVX0)                                 0.07      9.13 r
+  U1445/QN (NAND2X0)                               0.13      9.26 f
+  U4460/Q (XNOR2X1)                                0.37      9.63 f
+  U4461/Q (MUX21X1)                                0.25      9.88 f
+  UnidPro_Divisor_RegDeRE_Q_reg_15_/D (DFFNARX1)   0.00      9.88 f
+  data arrival time                                          9.88
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeRE_Q_reg_15_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.34      0.05
+  data required time                                         0.05
+  ------------------------------------------------------------------------
+  data required time                                         0.05
+  data arrival time                                         -9.88
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.83
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4186/ZN (INVX0)                                 0.11      9.42 r
+  U2392/Z (NBUFFX2)                                0.17      9.58 r
+  U4190/Q (MUX21X1)                                0.24      9.82 r
+  U4191/ZN (INVX0)                                 0.07      9.89 f
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/D (DFFNARX1)     0.00      9.89 f
+  data arrival time                                          9.89
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/CLK (DFFNARX1)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.32      0.07
+  data required time                                         0.07
+  ------------------------------------------------------------------------
+  data required time                                         0.07
+  data arrival time                                         -9.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.82
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4186/ZN (INVX0)                                 0.11      9.42 r
+  U2392/Z (NBUFFX2)                                0.17      9.58 r
+  U4188/Q (MUX21X1)                                0.24      9.82 r
+  U4189/ZN (INVX0)                                 0.07      9.89 f
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/D (DFFNARX1)     0.00      9.89 f
+  data arrival time                                          9.89
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/CLK (DFFNARX1)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.32      0.07
+  data required time                                         0.07
+  ------------------------------------------------------------------------
+  data required time                                         0.07
+  data arrival time                                         -9.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.82
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q4_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4186/ZN (INVX0)                                 0.11      9.42 r
+  U2429/QN (NOR2X0)                                0.14      9.56 f
+  U2427/Q (AO21X1)                                 0.30      9.86 f
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/D (DFFNARX2)     0.00      9.86 f
+  data arrival time                                          9.86
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.86
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.73
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q12_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4186/ZN (INVX0)                                 0.11      9.42 r
+  U2429/QN (NOR2X0)                                0.14      9.56 f
+  U2428/Q (AO21X1)                                 0.30      9.86 f
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/D (DFFNARX2)    0.00      9.86 f
+  data arrival time                                          9.86
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/CLK (DFFNARX2)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.86
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.73
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q8_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4186/ZN (INVX0)                                 0.11      9.42 r
+  U2429/QN (NOR2X0)                                0.14      9.56 f
+  U2263/QN (NAND2X0)                               0.13      9.69 r
+  U2256/QN (NAND2X0)                               0.14      9.83 f
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/D (DFFNARX2)     0.00      9.83 f
+  data arrival time                                          9.83
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.27      0.12
+  data required time                                         0.12
+  ------------------------------------------------------------------------
+  data required time                                         0.12
+  data arrival time                                         -9.83
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.71
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q15_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4177/ZN (INVX0)                                 0.11      9.41 r
+  U4184/Q (MUX21X1)                                0.27      9.68 r
+  U4185/ZN (INVX0)                                 0.07      9.76 f
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/D (DFFNARX1)    0.00      9.76 f
+  data arrival time                                          9.76
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.32      0.07
+  data required time                                         0.07
+  ------------------------------------------------------------------------
+  data required time                                         0.07
+  data arrival time                                         -9.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.69
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q11_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4177/ZN (INVX0)                                 0.11      9.41 r
+  U4179/Q (MUX21X1)                                0.27      9.68 r
+  U4180/ZN (INVX0)                                 0.07      9.76 f
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/D (DFFNARX1)    0.00      9.76 f
+  data arrival time                                          9.76
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.32      0.07
+  data required time                                         0.07
+  ------------------------------------------------------------------------
+  data required time                                         0.07
+  data arrival time                                         -9.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.69
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q3_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2425/QN (NAND2X0)                               0.15      8.81 f
+  U2313/Q (OA21X1)                                 0.29      9.10 f
+  U2253/Q (AND2X1)                                 0.21      9.31 f
+  U4177/ZN (INVX0)                                 0.11      9.41 r
+  U4182/Q (MUX21X1)                                0.27      9.68 r
+  U4183/ZN (INVX0)                                 0.07      9.76 f
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/D (DFFNARX1)     0.00      9.76 f
+  data arrival time                                          9.76
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/CLK (DFFNARX1)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.32      0.07
+  data required time                                         0.07
+  ------------------------------------------------------------------------
+  data required time                                         0.07
+  data arrival time                                         -9.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.69
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q14_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U2594/QN (NOR2X0)                                0.19      9.44 f
+  U4466/Q (AO21X1)                                 0.31      9.75 f
+  UnidPro_Divisor_RegDeC_Q14_Q_reg/D (DFFNARX2)    0.00      9.75 f
+  data arrival time                                          9.75
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q14_Q_reg/CLK (DFFNARX2)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.75
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.62
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q10_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U2594/QN (NOR2X0)                                0.19      9.44 f
+  U4468/Q (AO21X1)                                 0.31      9.75 f
+  UnidPro_Divisor_RegDeC_Q10_Q_reg/D (DFFNARX2)    0.00      9.75 f
+  data arrival time                                          9.75
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q10_Q_reg/CLK (DFFNARX2)
+                                                   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.75
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.62
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q9_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U4469/QN (NOR2X0)                                0.19      9.44 f
+  U4480/Q (AO21X1)                                 0.31      9.75 f
+  UnidPro_Divisor_RegDeC_Q9_Q_reg/D (DFFNARX2)     0.00      9.75 f
+  data arrival time                                          9.75
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q9_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.75
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.62
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U2594/QN (NOR2X0)                                0.19      9.44 f
+  U4464/Q (AO21X1)                                 0.30      9.74 f
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/D (DFFNARX2)     0.00      9.74 f
+  data arrival time                                          9.74
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.74
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.61
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q6_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U2594/QN (NOR2X0)                                0.19      9.44 f
+  U4356/Q (AO21X1)                                 0.30      9.74 f
+  UnidPro_Divisor_RegDeC_Q6_Q_reg/D (DFFNARX2)     0.00      9.74 f
+  data arrival time                                          9.74
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q6_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.74
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.61
+
+
+
+  Startpoint: op[2] (input port clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q1_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (rise edge)                            0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  op[2] (in)                                       0.00      0.50 f
+  U1681/ZN (INVX0)                                 0.31      0.81 r
+  U1433/QN (NAND2X0)                               0.27      1.08 f
+  U1437/Q (OR2X2)                                  0.28      1.36 f
+  U2659/QN (NAND2X0)                               0.09      1.46 r
+  U1748/QN (AOI21X1)                               0.38      1.84 f
+  U2673/ZN (INVX0)                                 0.08      1.92 r
+  U2670/ZN (INVX0)                                 0.12      2.04 f
+  U1368/Q (MUX21X2)                                0.31      2.36 f
+  U1420/QN (NAND2X1)                               0.10      2.46 r
+  U2672/QN (NAND2X0)                               0.16      2.62 f
+  U1721/ZN (INVX0)                                 0.09      2.71 r
+  U1720/QN (NAND3X0)                               0.13      2.85 f
+  U1747/QN (NOR4X1)                                0.34      3.19 r
+  U1872/QN (NAND2X1)                               0.13      3.32 f
+  U1361/Q (OR2X1)                                  0.22      3.54 f
+  U1385/QN (NOR2X0)                                0.15      3.68 r
+  U1557/QN (NAND2X0)                               0.21      3.90 f
+  U2307/QN (NOR2X0)                                0.16      4.05 r
+  U2389/Q (AND2X1)                                 0.26      4.31 r
+  U1362/Q (XNOR2X2)                                0.38      4.70 f
+  U2259/QN (AOI22X1)                               0.34      5.04 r
+  U1387/QN (NAND3X0)                               0.15      5.19 f
+  U1386/Q (OA22X1)                                 0.28      5.47 f
+  U2258/QN (NOR2X0)                                0.13      5.60 r
+  U1414/Q (OA22X1)                                 0.30      5.90 r
+  U1413/QN (NAND2X0)                               0.15      6.05 f
+  U4149/QN (NAND2X0)                               0.12      6.17 r
+  U2278/QN (OAI22X1)                               0.41      6.57 f
+  U2277/Q (AO22X1)                                 0.27      6.84 f
+  U1850/QN (NAND2X0)                               0.13      6.97 r
+  U1852/QN (NAND3X0)                               0.16      7.13 f
+  U4161/QN (NAND2X0)                               0.13      7.26 r
+  U1419/QN (NAND2X1)                               0.13      7.39 f
+  U2255/QN (NAND2X0)                               0.14      7.54 r
+  U2364/QN (NAND3X0)                               0.14      7.68 f
+  U1356/QN (OAI21X2)                               0.42      8.10 r
+  U1388/CO (FADDX2)                                0.32      8.43 r
+  U2299/QN (NAND3X0)                               0.12      8.55 f
+  U2298/QN (NAND2X1)                               0.11      8.66 r
+  U2276/Q (OA21X1)                                 0.29      8.95 r
+  U1358/QN (NAND2X0)                               0.14      9.09 f
+  U1357/QN (NAND2X0)                               0.16      9.25 r
+  U4469/QN (NOR2X0)                                0.19      9.44 f
+  U4474/Q (AO21X1)                                 0.30      9.74 f
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/D (DFFNARX2)     0.00      9.74 f
+  data arrival time                                          9.74
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (ideal)                      0.00      0.40
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  clock uncertainty                               -0.01      0.39
+  library setup time                              -0.26      0.13
+  data required time                                         0.13
+  ------------------------------------------------------------------------
+  data required time                                         0.13
+  data arrival time                                         -9.74
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.61
+
+
+1
