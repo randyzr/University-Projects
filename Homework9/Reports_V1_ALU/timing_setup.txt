@@ -1,0 +1,1437 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 20
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Wed Nov 19 10:44:57 2025
+****************************************
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF6_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_2_4506/ZN (INVX0)                       0.09      1.76 f
+  ctmTdsLR_2_6552/Q (AND3X1)                       0.27      2.03 f
+  ctmTdsLR_1_6551/QN (NOR2X2)                      0.12      2.15 r
+  ctmTdsLR_1_1436/QN (NAND2X4)                     0.12      2.26 f
+  ctmTdsLR_3_632/ZN (INVX2)                        0.07      2.33 r
+  ctmTdsLR_1_3654/QN (NOR2X2)                      0.09      2.42 f
+  U2809/Q (OA21X2)                                 0.41      2.83 f
+  U2810/ZN (INVX8)                                 0.13      2.96 r
+  U3068/QN (NOR2X2)                                0.11      3.06 f
+  U3075/SO (HADDX1)                                0.35      3.41 f
+  U3097/S (FADDX1)                                 0.48      3.89 f
+  U3080/S (FADDX1)                                 0.52      4.41 f
+  U2477/S (FADDX1)                                 0.52      4.93 f
+  U3100/CO (FADDX2)                                0.42      5.35 f
+  U3109/S (FADDX1)                                 0.49      5.84 f
+  U3138/S (FADDX1)                                 0.46      6.29 f
+  U2102/QN (NOR2X2)                                0.11      6.40 r
+  U3107/QN (OAI21X1)                               0.38      6.78 f
+  ctmTdsLR_2_1993/ZN (INVX1)                       0.08      6.86 r
+  ctmTdsLR_1_1992/QN (NAND2X2)                     0.09      6.95 f
+  gre_d_INV_55_inst_7165/ZN (INVX2)                0.07      7.01 r
+  U2548/Q (OA21X2)                                 0.26      7.27 r
+  U3219/Q (XOR2X1)                                 0.32      7.59 f
+  ctmTdsLR_1_6678/Q (AND2X1)                       0.22      7.81 f
+  ctmTdsLR_1_1429/QN (NOR2X1)                      0.09      7.89 r
+  U2071/Q (AND2X1)                                 0.24      8.13 r
+  ctmTdsLR_2_409/QN (NAND4X0)                      0.13      8.26 f
+  ctmTdsLR_1_408/Q (AND2X1)                        0.23      8.50 f
+  U2069/QN (NOR2X2)                                0.14      8.64 r
+  ctmTdsLR_2_4870/QN (NAND2X2)                     0.12      8.76 f
+  ctmTdsLR_1_4869/QN (NAND2X2)                     0.08      8.84 r
+  ctmTdsLR_4_4872/QN (NOR2X2)                      0.10      8.93 f
+  ctmTdsLR_3_4946/QN (NAND2X2)                     0.08      9.02 r
+  ctmTdsLR_1_4944/QN (NOR2X2)                      0.12      9.13 f
+  ctmTdsLR_2_4904/QN (NAND3X0)                     0.15      9.28 r
+  ctmTdsLR_1_4903/QN (NAND2X2)                     0.10      9.38 f
+  REGF6_Q_reg/D (DFFNARX2)                         0.00      9.38 f
+  data arrival time                                          9.38
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  REGF6_Q_reg/CLK (DFFNARX2)                       0.00      1.50 f
+  library setup time                              -0.26      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -9.38
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -8.13
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_2_4506/ZN (INVX0)                       0.09      1.76 f
+  ctmTdsLR_2_6552/Q (AND3X1)                       0.27      2.03 f
+  ctmTdsLR_1_6551/QN (NOR2X2)                      0.12      2.15 r
+  ctmTdsLR_1_1436/QN (NAND2X4)                     0.12      2.26 f
+  ctmTdsLR_3_632/ZN (INVX2)                        0.07      2.33 r
+  ctmTdsLR_1_3654/QN (NOR2X2)                      0.09      2.42 f
+  U2809/Q (OA21X2)                                 0.41      2.83 f
+  U2810/ZN (INVX8)                                 0.13      2.96 r
+  ctmTdsLR_1_3524/QN (NOR2X1)                      0.13      3.08 f
+  U3129/C1 (HADDX1)                                0.39      3.47 f
+  U3205/S (FADDX1)                                 0.53      4.00 f
+  U1682/CO (FADDX2)                                0.42      4.42 f
+  U3672/S (FADDX1)                                 0.46      4.88 f
+  U3665/S (FADDX1)                                 0.51      5.39 f
+  U3687/CO (FADDX2)                                0.40      5.79 f
+  U3693/CO (FADDX1)                                0.40      6.19 f
+  U3778/S (FADDX1)                                 0.50      6.69 f
+  U1407/QN (NOR2X1)                                0.15      6.84 r
+  U2013/Q (OA21X2)                                 0.30      7.13 r
+  ctmTdsLR_1_1997/QN (NAND3X0)                     0.17      7.30 f
+  U3856/ZN (INVX1)                                 0.12      7.43 r
+  U2012/Q (OA21X2)                                 0.29      7.72 r
+  ctmTdsLR_1_6154/Q (XOR2X2)                       0.37      8.09 f
+  ctmTdsLR_3_6156/QN (NAND2X2)                     0.08      8.17 r
+  ctmTdsLR_6_5032/ZN (INVX1)                       0.08      8.25 f
+  ctmTdsLR_5_5031/QN (NOR2X2)                      0.08      8.33 r
+  ctmTdsLR_1_5027/QN (NAND2X2)                     0.12      8.46 f
+  U3882/ZN (INVX1)                                 0.07      8.53 r
+  U2097/ZN (INVX1)                                 0.09      8.62 f
+  ctmTdsLR_2_3915/QN (NAND2X2)                     0.06      8.68 r
+  ctmTdsLR_1_3914/QN (NAND3X0)                     0.18      8.86 f
+  ctmTdsLR_1_4915/Z (NBUFFX2)                      0.23      9.09 f
+  ctmTdsLR_2_5540/QN (NAND2X4)                     0.06      9.15 r
+  ctmTdsLR_1_5539/QN (NAND2X2)                     0.09      9.24 f
+  REGF7_Q_reg/D (DFFNARX2)                         0.00      9.24 f
+  data arrival time                                          9.24
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.01      1.51
+  REGF7_Q_reg/CLK (DFFNARX2)                       0.00      1.51 f
+  library setup time                              -0.25      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -9.24
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -7.98
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_2_4506/ZN (INVX0)                       0.09      1.76 f
+  ctmTdsLR_2_6552/Q (AND3X1)                       0.27      2.03 f
+  ctmTdsLR_1_6551/QN (NOR2X2)                      0.12      2.15 r
+  ctmTdsLR_1_1436/QN (NAND2X4)                     0.12      2.26 f
+  ctmTdsLR_3_632/ZN (INVX2)                        0.07      2.33 r
+  ctmTdsLR_1_3654/QN (NOR2X2)                      0.09      2.42 f
+  U2809/Q (OA21X2)                                 0.41      2.83 f
+  U2810/ZN (INVX8)                                 0.13      2.96 r
+  ctmTdsLR_1_3524/QN (NOR2X1)                      0.13      3.08 f
+  U3129/C1 (HADDX1)                                0.39      3.47 f
+  U3205/S (FADDX1)                                 0.53      4.00 f
+  U1682/CO (FADDX2)                                0.42      4.42 f
+  U3672/S (FADDX1)                                 0.46      4.88 f
+  U3665/S (FADDX1)                                 0.51      5.39 f
+  U3687/CO (FADDX2)                                0.40      5.79 f
+  U3693/CO (FADDX1)                                0.40      6.19 f
+  U3778/CO (FADDX1)                                0.44      6.63 f
+  U3779/QN (NOR2X0)                                0.31      6.94 r
+  U3887/QN (NOR2X2)                                0.27      7.21 f
+  U2229/QN (NAND2X2)                               0.11      7.32 r
+  U4362/ZN (INVX0)                                 0.16      7.48 f
+  U2353/QN (NAND2X0)                               0.17      7.65 r
+  ctmTdsLR_4_5560/QN (NOR2X0)                      0.20      7.86 f
+  ctmTdsLR_2_5558/QN (NOR2X0)                      0.17      8.02 r
+  ctmTdsLR_1_5557/Q (XOR2X1)                       0.34      8.37 f
+  ctmTdsLR_4_1228/QN (NOR2X2)                      0.11      8.48 r
+  ctmTdsLR_1_3977/QN (NAND4X0)                     0.20      8.68 f
+  U1503/QN (NAND2X2)                               0.13      8.80 r
+  ctmTdsLR_1_1637/QN (NAND2X2)                     0.10      8.90 f
+  U1495/QN (NAND2X2)                               0.07      8.97 r
+  U1425/QN (NAND2X2)                               0.10      9.08 f
+  ctmTdsLR_2_1441/QN (NAND2X2)                     0.07      9.15 r
+  ctmTdsLR_1_1440/QN (NAND2X2)                     0.08      9.23 f
+  REGF0_Q_reg/D (DFFNARX2)                         0.00      9.23 f
+  data arrival time                                          9.23
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.01      1.51
+  REGF0_Q_reg/CLK (DFFNARX2)                       0.00      1.51 f
+  library setup time                              -0.25      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -9.23
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -7.97
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF11_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_2_4506/ZN (INVX0)                       0.09      1.76 f
+  ctmTdsLR_2_6552/Q (AND3X1)                       0.27      2.03 f
+  ctmTdsLR_1_6551/QN (NOR2X2)                      0.12      2.15 r
+  ctmTdsLR_1_1436/QN (NAND2X4)                     0.12      2.26 f
+  ctmTdsLR_3_632/ZN (INVX2)                        0.07      2.33 r
+  ctmTdsLR_1_3654/QN (NOR2X2)                      0.09      2.42 f
+  U2809/Q (OA21X2)                                 0.41      2.83 f
+  U2810/ZN (INVX8)                                 0.13      2.96 r
+  ctmTdsLR_1_3524/QN (NOR2X1)                      0.13      3.08 f
+  U3129/C1 (HADDX1)                                0.39      3.47 f
+  U3205/S (FADDX1)                                 0.53      4.00 f
+  U1682/CO (FADDX2)                                0.42      4.42 f
+  U3672/S (FADDX1)                                 0.46      4.88 f
+  U3665/S (FADDX1)                                 0.51      5.39 f
+  U3687/CO (FADDX2)                                0.40      5.79 f
+  U3693/CO (FADDX1)                                0.40      6.19 f
+  U3778/CO (FADDX1)                                0.44      6.63 f
+  U3779/QN (NOR2X0)                                0.31      6.94 r
+  U3887/QN (NOR2X2)                                0.27      7.21 f
+  U2229/QN (NAND2X2)                               0.11      7.32 r
+  U4362/ZN (INVX0)                                 0.16      7.48 f
+  U2353/QN (NAND2X0)                               0.17      7.65 r
+  ctmTdsLR_4_5560/QN (NOR2X0)                      0.20      7.86 f
+  ctmTdsLR_2_5558/QN (NOR2X0)                      0.17      8.02 r
+  ctmTdsLR_1_5557/Q (XOR2X1)                       0.34      8.37 f
+  ctmTdsLR_4_1228/QN (NOR2X2)                      0.11      8.48 r
+  ctmTdsLR_1_3977/QN (NAND4X0)                     0.20      8.68 f
+  U1503/QN (NAND2X2)                               0.13      8.80 r
+  ctmTdsLR_1_1500/QN (NAND2X2)                     0.10      8.90 f
+  ctmTdsLR_2_4488/QN (NAND2X2)                     0.07      8.97 r
+  ctmTdsLR_1_4487/QN (NAND2X2)                     0.08      9.05 f
+  REGF11_Q_reg/D (DFFNARX2)                        0.00      9.05 f
+  data arrival time                                          9.05
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.01      1.51
+  REGF11_Q_reg/CLK (DFFNARX2)                      0.00      1.51 f
+  library setup time                              -0.24      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -9.05
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -7.79
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_2_4506/ZN (INVX0)                       0.09      1.76 f
+  ctmTdsLR_2_6552/Q (AND3X1)                       0.27      2.03 f
+  ctmTdsLR_1_6551/QN (NOR2X2)                      0.12      2.15 r
+  ctmTdsLR_1_1436/QN (NAND2X4)                     0.12      2.26 f
+  ctmTdsLR_3_632/ZN (INVX2)                        0.07      2.33 r
+  ctmTdsLR_1_3654/QN (NOR2X2)                      0.09      2.42 f
+  U2809/Q (OA21X2)                                 0.41      2.83 f
+  U2810/ZN (INVX8)                                 0.13      2.96 r
+  U3068/QN (NOR2X2)                                0.11      3.06 f
+  U3075/SO (HADDX1)                                0.35      3.41 f
+  U3097/S (FADDX1)                                 0.48      3.89 f
+  U3080/S (FADDX1)                                 0.52      4.41 f
+  U2477/S (FADDX1)                                 0.52      4.93 f
+  U3100/CO (FADDX2)                                0.42      5.35 f
+  U3109/S (FADDX1)                                 0.49      5.84 f
+  U3138/S (FADDX1)                                 0.46      6.29 f
+  U2102/QN (NOR2X2)                                0.11      6.40 r
+  U3107/QN (OAI21X1)                               0.38      6.78 f
+  ctmTdsLR_2_1993/ZN (INVX1)                       0.08      6.86 r
+  ctmTdsLR_1_1992/QN (NAND2X2)                     0.09      6.95 f
+  gre_d_INV_55_inst_7165/ZN (INVX2)                0.07      7.01 r
+  U2548/Q (OA21X2)                                 0.26      7.27 r
+  U3219/Q (XOR2X1)                                 0.32      7.59 f
+  ctmTdsLR_1_6678/Q (AND2X1)                       0.22      7.81 f
+  ctmTdsLR_1_1429/QN (NOR2X1)                      0.09      7.89 r
+  U2071/Q (AND2X1)                                 0.24      8.13 r
+  ctmTdsLR_2_409/QN (NAND4X0)                      0.13      8.26 f
+  ctmTdsLR_1_408/Q (AND2X1)                        0.23      8.50 f
+  U2069/QN (NOR2X2)                                0.14      8.64 r
+  ctmTdsLR_3_1233/ZN (INVX1)                       0.12      8.76 f
+  ctmTdsLR_2_3899/QN (NAND2X2)                     0.06      8.82 r
+  ctmTdsLR_1_5907/QN (NAND3X0)                     0.14      8.96 f
+  ctmTdsLR_3_4750/Q (XOR2X1)                       0.32      9.28 f
+  ctmTdsLR_1_3871/Q (XOR2X1)                       0.27      9.55 f
+  ctmTdsLR_1_3504/Q (XOR3X1)                       0.32      9.86 f
+  ctmTdsLR_3_1206/QN (NAND2X2)                     0.08      9.95 r
+  ctmTdsLR_2_1205/QN (NAND2X2)                     0.10     10.05 f
+  ctmTdsLR_1_4825/QN (NAND2X2)                     0.08     10.13 r
+  U1521/QN (NAND2X2)                               0.08     10.21 f
+  REGF2_Q_reg/D (DFFNARX2)                         0.00     10.21 f
+  data arrival time                                         10.21
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 2.58      4.08
+  REGF2_Q_reg/CLK (DFFNARX2)                       0.00      4.08 f
+  library setup time                              -0.20      3.88
+  data required time                                         3.88
+  ------------------------------------------------------------------------
+  data required time                                         3.88
+  data arrival time                                        -10.21
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -6.33
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q15_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_2_1670/ZN (INVX1)                       0.14      6.50 f
+  ctmTdsLR_1_1669/QN (NAND2X2)                     0.10      6.60 r
+  ctmTdsLR_2_3532/QN (NAND2X2)                     0.09      6.70 f
+  ctmTdsLR_1_3531/QN (NAND2X2)                     0.07      6.77 r
+  ZINV_4_inst_3315/ZN (INVX2)                      0.11      6.88 f
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/D (DFFNARX1)    0.00      6.89 f
+  data arrival time                                          6.89
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/CLK (DFFNARX1)
+                                                   0.00      1.50 f
+  library setup time                              -0.33      1.17
+  data required time                                         1.17
+  ------------------------------------------------------------------------
+  data required time                                         1.17
+  data arrival time                                         -6.89
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.71
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_2_3397/ZN (INVX1)                       0.18      6.53 f
+  ctmTdsLR_1_3396/QN (NAND2X2)                     0.09      6.62 r
+  ctmTdsLR_3_5011/QN (NAND2X2)                     0.09      6.71 f
+  ctmTdsLR_2_5010/QN (NAND2X2)                     0.06      6.77 r
+  ctmTdsLR_1_5009/ZN (INVX1)                       0.07      6.84 f
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/D (DFFNARX2)     0.00      6.84 f
+  data arrival time                                          6.84
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.24      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.84
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.58
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q9_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  U1880/QN (NOR2X2)                                0.24      6.60 f
+  ctmTdsLR_2_4467/QN (NAND2X1)                     0.13      6.73 r
+  ctmTdsLR_1_4466/QN (NAND2X2)                     0.09      6.82 f
+  UnidPro_Divisor_RegDeC_Q9_Q_reg/D (DFFNARX2)     0.00      6.82 f
+  data arrival time                                          6.82
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q9_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.82
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.57
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_2_1670/ZN (INVX1)                       0.14      6.50 f
+  ctmTdsLR_1_1669/QN (NAND2X2)                     0.10      6.60 r
+  ctmTdsLR_2_917/QN (NAND2X2)                      0.10      6.70 f
+  ctmTdsLR_1_916/QN (NAND2X2)                      0.06      6.77 r
+  ZINV_4_inst_2309/ZN (INVX1)                      0.07      6.83 f
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/D (DFFNARX2)     0.00      6.83 f
+  data arrival time                                          6.83
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.24      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.83
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.57
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q3_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_2_3397/ZN (INVX1)                       0.18      6.53 f
+  ctmTdsLR_3_3535/ZN (INVX1)                       0.09      6.62 r
+  ctmTdsLR_2_3534/QN (NAND2X2)                     0.09      6.71 f
+  ctmTdsLR_2_3656/QN (NAND2X2)                     0.06      6.77 r
+  ctmTdsLR_1_4024/ZN (INVX1)                       0.06      6.83 f
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/D (DFFNARX2)     0.00      6.83 f
+  data arrival time                                          6.83
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.24      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.83
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.57
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q10_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_4652/QN (NOR2X2)                      0.23      6.59 f
+  ctmTdsLR_1_5910/QN (NAND2X1)                     0.13      6.72 r
+  ctmTdsLR_1_744/QN (NAND2X2)                      0.09      6.81 f
+  UnidPro_Divisor_RegDeC_Q10_Q_reg/D (DFFNARX2)    0.00      6.81 f
+  data arrival time                                          6.81
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q10_Q_reg/CLK (DFFNARX2)
+                                                   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.81
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.56
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q5_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  U1880/QN (NOR2X2)                                0.24      6.60 f
+  ctmTdsLR_1_3539/QN (NAND2X2)                     0.10      6.70 r
+  ctmTdsLR_1_3403/QN (NAND2X2)                     0.09      6.79 f
+  UnidPro_Divisor_RegDeC_Q5_Q_reg/D (DFFNARX2)     0.00      6.79 f
+  data arrival time                                          6.79
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q5_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.79
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.54
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q4_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_5857/QN (NOR2X2)                      0.18      6.54 f
+  ctmTdsLR_1_5868/QN (NAND2X1)                     0.12      6.65 r
+  ctmTdsLR_1_747/QN (NAND2X2)                      0.11      6.77 f
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/D (DFFNARX2)     0.00      6.77 f
+  data arrival time                                          6.77
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.26      1.24
+  data required time                                         1.24
+  ------------------------------------------------------------------------
+  data required time                                         1.24
+  data arrival time                                         -6.77
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.52
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q13_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  U1880/QN (NOR2X2)                                0.24      6.60 f
+  ctmTdsLR_2_1145/QN (NAND2X2)                     0.09      6.69 r
+  ctmTdsLR_1_1177/QN (NAND2X2)                     0.08      6.78 f
+  UnidPro_Divisor_RegDeC_Q13_Q_reg/D (DFFNARX2)    0.00      6.78 f
+  data arrival time                                          6.78
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q13_Q_reg/CLK (DFFNARX2)
+                                                   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.78
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.52
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q6_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_4652/QN (NOR2X2)                      0.23      6.59 f
+  ctmTdsLR_2_648/QN (NAND2X2)                      0.09      6.68 r
+  ctmTdsLR_1_647/QN (NAND2X2)                      0.09      6.77 f
+  UnidPro_Divisor_RegDeC_Q6_Q_reg/D (DFFNARX2)     0.00      6.77 f
+  data arrival time                                          6.77
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q6_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.77
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.52
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q1_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  U1880/QN (NOR2X2)                                0.24      6.60 f
+  ctmTdsLR_2_4316/QN (NAND2X2)                     0.09      6.69 r
+  ctmTdsLR_1_4315/QN (NAND2X2)                     0.08      6.77 f
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/D (DFFNARX2)     0.00      6.77 f
+  data arrival time                                          6.77
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.25      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.77
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.51
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q14_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_4652/QN (NOR2X2)                      0.23      6.59 f
+  ctmTdsLR_2_4827/QN (NAND2X2)                     0.09      6.68 r
+  ctmTdsLR_1_4826/QN (NAND2X2)                     0.08      6.76 f
+  UnidPro_Divisor_RegDeC_Q14_Q_reg/D (DFFNARX2)    0.00      6.76 f
+  data arrival time                                          6.76
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q14_Q_reg/CLK (DFFNARX2)
+                                                   0.00      1.50 f
+  library setup time                              -0.25      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.50
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q8_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_5857/QN (NOR2X2)                      0.18      6.54 f
+  ctmTdsLR_2_6200/QN (NAND2X1)                     0.12      6.65 r
+  ctmTdsLR_1_6199/QN (NAND2X2)                     0.10      6.75 f
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/D (DFFNARX2)     0.00      6.75 f
+  data arrival time                                          6.75
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.26      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.75
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.50
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_4652/QN (NOR2X2)                      0.23      6.59 f
+  ctmTdsLR_2_4259/QN (NAND2X2)                     0.09      6.68 r
+  ctmTdsLR_1_4258/QN (NAND2X2)                     0.08      6.76 f
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/D (DFFNARX2)     0.00      6.76 f
+  data arrival time                                          6.76
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/CLK (DFFNARX2)   0.00      1.50 f
+  library setup time                              -0.25      1.26
+  data required time                                         1.26
+  ------------------------------------------------------------------------
+  data required time                                         1.26
+  data arrival time                                         -6.76
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.50
+
+
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q12_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.89      1.40 r
+  ctmTdsLR_2_3378/QN (NAND3X0)                     0.19      1.59 f
+  ctmTdsLR_1_3377/QN (NAND2X2)                     0.13      1.71 r
+  ctmTdsLR_1_5109/QN (NAND2X2)                     0.12      1.84 f
+  ctmTdsLR_1_558/QN (NAND2X4)                      0.08      1.92 r
+  ctmTdsLR_1_4731/QN (NAND2X2)                     0.09      2.01 f
+  U1413/Q (AND2X2)                                 0.26      2.27 f
+  U1993/QN (NAND2X1)                               0.12      2.38 r
+  U1939/QN (NAND3X0)                               0.17      2.55 f
+  ctmTdsLR_1_6808/QN (NAND3X0)                     0.24      2.79 r
+  U1449/QN (NOR2X4)                                0.16      2.95 f
+  U1711/QN (NAND2X1)                               0.12      3.07 r
+  U1957/QN (NAND2X1)                               0.20      3.27 f
+  ctmTdsLR_1_6569/QN (NAND2X4)                     0.21      3.47 r
+  U2448/ZN (INVX2)                                 0.19      3.66 f
+  ctmTdsLR_1_6589/Q (AO222X1)                      0.42      4.08 f
+  ctmTdsLR_2_1752/QN (NAND2X2)                     0.09      4.18 r
+  gre_d_INV_14_inst_7155/ZN (INVX2)                0.10      4.28 f
+  ctmTdsLR_2_3327/QN (NOR2X4)                      0.11      4.38 r
+  ctmTdsLR_1_3326/QN (NAND2X4)                     0.15      4.53 f
+  ctmTdsLR_2_5055/QN (NOR2X4)                      0.11      4.64 r
+  ctmTdsLR_1_5054/QN (NOR2X4)                      0.13      4.77 f
+  ctmTdsLR_1_3444/QN (NAND2X4)                     0.08      4.85 r
+  ctmTdsLR_2_4287/QN (NAND2X2)                     0.11      4.95 f
+  ctmTdsLR_2_6196/QN (NAND2X4)                     0.08      5.03 r
+  ctmTdsLR_1_6195/QN (NAND2X4)                     0.09      5.12 f
+  ctmTdsLR_2_6166/ZN (INVX1)                       0.08      5.20 r
+  ctmTdsLR_1_6165/QN (NOR2X2)                      0.10      5.29 f
+  ctmTdsLR_2_6373/QN (NOR2X2)                      0.09      5.38 r
+  ctmTdsLR_1_6372/QN (NAND2X2)                     0.10      5.49 f
+  ctmTdsLR_2_3381/QN (NAND2X2)                     0.09      5.58 r
+  ctmTdsLR_1_3399/QN (NAND2X4)                     0.09      5.67 f
+  ctmTdsLR_1_464/QN (NAND2X4)                      0.07      5.74 r
+  ctmTdsLR_2_707/ZN (INVX2)                        0.08      5.82 f
+  ctmTdsLR_1_706/QN (NAND2X4)                      0.07      5.89 r
+  ctmTdsLR_1_6415/QN (NAND2X4)                     0.11      6.00 f
+  ctmTdsLR_2_5289/QN (NAND2X4)                     0.07      6.07 r
+  ctmTdsLR_1_4429/QN (NAND2X4)                     0.10      6.17 f
+  ctmTdsLR_1_4109/QN (NOR2X4)                      0.19      6.36 r
+  ctmTdsLR_1_5857/QN (NOR2X2)                      0.18      6.54 f
+  ctmTdsLR_1_5909/QN (NAND2X1)                     0.12      6.66 r
+  ctmTdsLR_1_4528/QN (NAND2X2)                     0.09      6.75 f
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/D (DFFNARX2)    0.00      6.75 f
+  data arrival time                                          6.75
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/CLK (DFFNARX2)
+                                                   0.00      1.50 f
+  library setup time                              -0.25      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -6.75
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -5.50
+
+
+1

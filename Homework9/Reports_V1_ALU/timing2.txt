@@ -1,0 +1,82 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Wed Nov 19 10:31:13 2025
+****************************************
+
+  Startpoint: REGB_Q_reg_1_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (ideal)                      0.00      0.50
+
+  REGB_Q_reg_1_/CLK (DFFNARX1)                     0.00      0.50 f
+  REGB_Q_reg_1_/Q (DFFNARX1)                       0.82      1.32 f
+  U2790/Q (OR2X1)                                  0.24      1.56 f
+  U2463/Q (OR2X2)                                  0.25      1.81 f
+  ctmTdsLR_2_688/QN (NOR2X1)                       0.13      1.94 r
+  ctmTdsLR_1_687/QN (NAND2X2)                      0.12      2.06 f
+  U2813/Q (OR2X1)                                  0.22      2.28 f
+  U1403/Q (XNOR3X2)                                0.74      3.02 f
+  U2814/Z (NBUFFX2)                                0.26      3.28 f
+  U2815/QN (NOR2X2)                                0.11      3.39 r
+  U2911/SO (HADDX1)                                0.32      3.72 f
+  U2881/S (FADDX1)                                 0.46      4.18 f
+  U2882/CO (FADDX2)                                0.41      4.59 f
+  ctmTdsLR_12_1601/Q (XOR3X1)                      0.71      5.30 f
+  U2968/CO (FADDX2)                                0.40      5.70 f
+  U3103/S (FADDX1)                                 0.48      6.18 f
+  U1545/Q (AND2X1)                                 0.23      6.41 f
+  U1920/ZN (INVX1)                                 0.06      6.47 r
+  U1573/Q (OA21X1)                                 0.23      6.70 r
+  ctmTdsLR_1_1010/QN (NAND2X2)                     0.12      6.82 f
+  ctmTdsLR_3_1994/QN (NAND3X0)                     0.14      6.97 r
+  ctmTdsLR_1_1992/QN (NAND2X2)                     0.13      7.10 f
+  U3108/ZN (INVX1)                                 0.08      7.18 r
+  U2548/Q (OA21X1)                                 0.28      7.45 r
+  U3219/Q (XOR2X1)                                 0.31      7.76 f
+  ctmTdsLR_3_1431/ZN (INVX1)                       0.07      7.83 r
+  ctmTdsLR_2_1430/QN (NOR2X0)                      0.10      7.94 f
+  ctmTdsLR_1_1429/QN (NOR2X0)                      0.12      8.05 r
+  U2071/Q (AND2X1)                                 0.24      8.30 r
+  U1365/QN (NAND4X0)                               0.19      8.49 f
+  U3787/QN (NOR2X2)                                0.14      8.63 r
+  U2069/QN (NOR2X2)                                0.18      8.81 f
+  ctmTdsLR_3_1233/ZN (INVX1)                       0.09      8.90 r
+  ctmTdsLR_2_1232/QN (NAND2X2)                     0.08      8.98 f
+  ctmTdsLR_1_1231/QN (NAND3X0)                     0.11      9.10 r
+  U2003/Q (XOR3X1)                                 0.71      9.81 f
+  U2075/Q (XOR2X1)                                 0.27     10.08 f
+  U2473/Q (XOR3X1)                                 0.32     10.40 f
+  ctmTdsLR_3_1206/QN (NAND2X2)                     0.09     10.49 r
+  ctmTdsLR_2_1205/QN (NAND2X2)                     0.10     10.59 f
+  ctmTdsLR_1_1204/QN (NAND2X2)                     0.07     10.67 r
+  U1521/QN (NAND2X2)                               0.08     10.74 f
+  REGF2_Q_reg/D (DFFNARX2)                         0.00     10.74 f
+  data arrival time                                         10.74
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (ideal)                      0.22      1.72
+  REGF2_Q_reg/CLK (DFFNARX2)                       0.00      1.72 f
+  library setup time                              -0.26      1.46
+  data required time                                         1.46
+  ------------------------------------------------------------------------
+  data required time                                         1.46
+  data arrival time                                        -10.74
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -9.28
+
+
+1

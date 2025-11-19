@@ -1,0 +1,105 @@
+Information: The stitching and editing of coupling caps is turned OFF for design 'design_FP_POWER.ndm:design.design'. (TIM-125)
+Information: Design design has 4243 nets, 0 global routed, 4241 detail routed. (NEX-024)
+Information: The RC mode used is DR for design 'ALU'. (NEX-022)
+---extraction options---
+Corner: default
+ late_cap_scale                : 1.
+ late_res_scale                : 1.
+ early_cap_scale               : 1.
+ early_res_scale               : 1.
+Global options:
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 1
+ extract.connect_open           : true
+ extract.incremental_extraction : true
+ extract.enable_coupling_cap    : false
+Extracting design: design 
+Information: coupling capacitance is lumped to ground. (NEX-030)
+Information: 4241 nets are successfully extracted. (NEX-028)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 4241, routed nets = 4241, across physical hierarchy nets = 0, parasitics cached nets = 4241, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Wed Nov 19 10:36:42 2025
+****************************************
+
+  Startpoint: REGA_Q_reg_15_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF6_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.50      0.50
+  clock network delay (propagated)                 0.01      0.51
+
+  REGA_Q_reg_15_/CLK (DFFNARX1)                    0.00      0.51 f
+  REGA_Q_reg_15_/Q (DFFNARX1)                      0.90      1.40 r
+  U1799/Q (AND2X1)                                 0.27      1.67 r
+  ctmTdsLR_1_4314/ZN (INVX1)                       0.07      1.75 f
+  ctmTdsLR_1_3401/Q (OA21X2)                       0.30      2.05 f
+  ctmTdsLR_2_477/QN (NAND2X2)                      0.08      2.13 r
+  ctmTdsLR_1_476/QN (NAND2X2)                      0.09      2.22 f
+  U1865/QN (NAND4X0)                               0.12      2.34 r
+  U2658/ZN (INVX1)                                 0.16      2.50 f
+  U2781/ZN (INVX2)                                 0.09      2.58 r
+  ctmTdsLR_1_6007/QN (NAND2X2)                     0.09      2.68 f
+  ctmTdsLR_1_6558/Q (OR2X2)                        0.23      2.91 f
+  ctmTdsLR_1_1113/QN (NAND2X4)                     0.10      3.01 r
+  U2785/Z (NBUFFX2)                                0.22      3.23 r
+  U3081/QN (NOR2X2)                                0.14      3.36 f
+  U3124/S (FADDX1)                                 0.50      3.87 f
+  U3122/S (FADDX1)                                 0.51      4.38 f
+  U3136/S (FADDX1)                                 0.47      4.85 f
+  U3120/S (FADDX1)                                 0.51      5.36 f
+  U3109/S (FADDX1)                                 0.45      5.81 f
+  U3138/S (FADDX1)                                 0.46      6.27 f
+  U2102/QN (NOR2X2)                                0.11      6.37 r
+  U3107/QN (OAI21X1)                               0.38      6.75 f
+  ctmTdsLR_2_1993/ZN (INVX1)                       0.08      6.83 r
+  ctmTdsLR_1_1992/QN (NAND2X2)                     0.09      6.92 f
+  gre_d_INV_55_inst_7165/ZN (INVX2)                0.07      6.99 r
+  U2548/Q (OA21X2)                                 0.26      7.24 r
+  U3219/Q (XOR2X1)                                 0.32      7.56 f
+  ctmTdsLR_1_6678/Q (AND2X1)                       0.22      7.78 f
+  ctmTdsLR_1_1429/QN (NOR2X1)                      0.09      7.87 r
+  U2071/Q (AND2X1)                                 0.24      8.10 r
+  ctmTdsLR_2_409/QN (NAND4X0)                      0.13      8.24 f
+  ctmTdsLR_1_408/Q (AND2X1)                        0.23      8.47 f
+  U2069/QN (NOR2X2)                                0.14      8.61 r
+  ctmTdsLR_2_4870/QN (NAND2X2)                     0.12      8.73 f
+  ctmTdsLR_1_4869/QN (NAND2X2)                     0.08      8.81 r
+  ctmTdsLR_4_4872/QN (NOR2X2)                      0.10      8.91 f
+  ctmTdsLR_3_4946/QN (NAND2X2)                     0.08      8.99 r
+  ctmTdsLR_1_4944/QN (NOR2X2)                      0.12      9.10 f
+  ctmTdsLR_2_4904/QN (NAND3X0)                     0.15      9.25 r
+  ctmTdsLR_1_4903/QN (NAND2X2)                     0.10      9.35 f
+  REGF6_Q_reg/D (DFFNARX2)                         0.00      9.35 f
+  data arrival time                                          9.35
+
+  clock CLK (fall edge)                            1.50      1.50
+  clock network delay (propagated)                 0.00      1.50
+  REGF6_Q_reg/CLK (DFFNARX2)                       0.00      1.50 f
+  library setup time                              -0.26      1.25
+  data required time                                         1.25
+  ------------------------------------------------------------------------
+  data required time                                         1.25
+  data arrival time                                         -9.35
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -8.11
+
+
+1
