@@ -1,0 +1,703 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 20
+        -report_by design
+Design : ALU
+Version: R-2020.09-SP6
+Date   : Wed Nov 19 13:41:55 2025
+****************************************
+
+  Startpoint: REGA_Q_reg_10_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGA_Q_reg_10_/CLK (DFFNARX1)                    0.00      0.41 f
+  REGA_Q_reg_10_/QN (DFFNARX1)                     0.83      1.23 f
+  U4062/Q (MUX21X1)                                0.36      1.59 f
+  ctmTdsLR_4_502/QN (NAND2X2)                      0.08      1.67 r
+  ctmTdsLR_2_500/QN (NOR2X2)                       0.12      1.79 f
+  ctmTdsLR_1_4478/QN (NAND2X4)                     0.09      1.88 r
+  U2281/Q (XOR2X1)                                 0.28      2.16 r
+  ctmTdsLR_4_3784/QN (NOR2X0)                      0.16      2.31 f
+  ctmTdsLR_3_6093/QN (NAND2X1)                     0.09      2.41 r
+  ctmTdsLR_1_6091/QN (NAND4X0)                     0.19      2.60 f
+  ctmTdsLR_1_1065/QN (NAND2X2)                     0.09      2.69 r
+  REGF2_Q_reg/D (DFFNARX2)                         0.00      2.69 r
+  data arrival time                                          2.69
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 2.86      3.26
+  REGF2_Q_reg/CLK (DFFNARX2)                       0.00      3.26 f
+  library hold time                                0.21      3.47
+  data required time                                         3.47
+  ------------------------------------------------------------------------
+  data required time                                         3.47
+  data arrival time                                         -2.69
+  ------------------------------------------------------------------------
+  slack (VIOLATED)                                          -0.78
+
+
+
+  Startpoint: REGF10_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGF10_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  REGF10_Q_reg/CLK (DFFNARX2)                      0.00      0.40 f
+  REGF10_Q_reg/QN (DFFNARX2)                       0.66      1.06 f
+  gre_d_INV_14_inst_7069/ZN (INVX1)                0.09      1.16 r
+  ctmTdsLR_2_4653/QN (NAND2X2)                     0.10      1.26 f
+  ctmTdsLR_1_4652/QN (NAND2X2)                     0.05      1.31 r
+  REGF10_Q_reg/D (DFFNARX2)                        0.00      1.31 r
+  data arrival time                                          1.31
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  REGF10_Q_reg/CLK (DFFNARX2)                      0.00      0.40 f
+  library hold time                                0.12      0.53
+  data required time                                         0.53
+  ------------------------------------------------------------------------
+  data required time                                         0.53
+  data arrival time                                         -1.31
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.79
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q0_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/QN (DFFNARX2)    0.67      1.07 f
+  ctmTdsLR_4_3307/QN (NAND2X2)                     0.10      1.17 r
+  ctmTdsLR_2_4812/QN (NAND2X2)                     0.10      1.27 f
+  ctmTdsLR_1_5594/ZN (INVX1)                       0.05      1.32 r
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/D (DFFNARX2)     0.00      1.32 r
+  data arrival time                                          1.32
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q0_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.53
+  data required time                                         0.53
+  ------------------------------------------------------------------------
+  data required time                                         0.53
+  data arrival time                                         -1.32
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.79
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q3_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q3_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/QN (DFFNARX2)    0.69      1.10 f
+  ctmTdsLR_5_877/QN (NAND2X2)                      0.10      1.20 r
+  ctmTdsLR_1_4415/QN (NAND2X2)                     0.10      1.30 f
+  ctmTdsLR_1_3227/ZN (INVX1)                       0.05      1.35 r
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/D (DFFNARX2)     0.00      1.35 r
+  data arrival time                                          1.35
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q3_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.53
+  data required time                                         0.53
+  ------------------------------------------------------------------------
+  data required time                                         0.53
+  data arrival time                                         -1.35
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.82
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q4_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q4_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/QN (DFFNARX2)    0.68      1.08 f
+  ctmTdsLR_1_6655/Q (AO21X1)                       0.23      1.31 f
+  ctmTdsLR_1_4260/QN (NAND2X2)                     0.08      1.39 r
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/D (DFFNARX2)     0.00      1.39 r
+  data arrival time                                          1.39
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q4_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.39
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.87
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q12_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q12_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/CLK (DFFNARX2)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/QN (DFFNARX2)   0.68      1.08 f
+  ctmTdsLR_1_6645/Q (AO21X1)                       0.23      1.31 f
+  ctmTdsLR_1_587/QN (NAND2X2)                      0.08      1.39 r
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/D (DFFNARX2)    0.00      1.39 r
+  data arrival time                                          1.39
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q12_Q_reg/CLK (DFFNARX2)
+                                                   0.00      0.40 f
+  library hold time                                0.12      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.39
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.87
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q11_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q11_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/QN (DFFNARX1)   0.64      1.04 f
+  ctmTdsLR_4_4138/QN (NAND2X0)                     0.18      1.22 r
+  ctmTdsLR_1_4135/QN (NAND2X2)                     0.12      1.35 f
+  ctmTdsLR_1_3471/ZN (INVX1)                       0.06      1.40 r
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/D (DFFNARX1)    0.00      1.40 r
+  data arrival time                                          1.40
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q11_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  library hold time                                0.11      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.40
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.88
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q8_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q8_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/QN (DFFNARX2)    0.68      1.09 f
+  ctmTdsLR_5_4040/ZN (INVX0)                       0.10      1.18 r
+  ctmTdsLR_3_4038/QN (NAND2X1)                     0.13      1.32 f
+  ctmTdsLR_1_4093/QN (NAND2X2)                     0.09      1.41 r
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/D (DFFNARX2)     0.00      1.41 r
+  data arrival time                                          1.41
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q8_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.41
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.89
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q15_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q15_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/QN (DFFNARX1)   0.79      1.19 f
+  ctmTdsLR_6_610/QN (NAND2X2)                      0.13      1.33 r
+  ctmTdsLR_1_755/QN (NAND2X2)                      0.09      1.41 f
+  ZINV_4_inst_3002/ZN (INVX1)                      0.06      1.47 r
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/D (DFFNARX1)    0.00      1.47 r
+  data arrival time                                          1.47
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q15_Q_reg/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  library hold time                                0.11      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.47
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.95
+
+
+
+  Startpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_0_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_1_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/QN (DFFNARX1)
+                                                   0.57      0.97 r
+  U4085/Q (AND2X1)                                 0.29      1.26 r
+  ctmTdsLR_3_3967/ZN (INVX0)                       0.11      1.37 f
+  ctmTdsLR_1_3965/QN (NAND2X1)                     0.09      1.46 r
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_1_/D (DFFNARX1)
+                                                   0.00      1.46 r
+  data arrival time                                          1.46
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_1_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  library hold time                                0.10      0.50
+  data required time                                         0.50
+  ------------------------------------------------------------------------
+  data required time                                         0.50
+  data arrival time                                         -1.46
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.95
+
+
+
+  Startpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_2_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_3_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_2_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_2_/QN (DFFNARX1)
+                                                   0.61      1.02 r
+  ctmTdsLR_2_3964/QN (NOR2X4)                      0.21      1.23 f
+  ctmTdsLR_2_3283/QN (NAND2X2)                     0.07      1.30 r
+  ctmTdsLR_1_3282/ZN (INVX1)                       0.07      1.37 f
+  ctmTdsLR_1_725/QN (NOR2X1)                       0.08      1.45 r
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_3_/D (DFFNARX1)
+                                                   0.00      1.45 r
+  data arrival time                                          1.45
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_3_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  library hold time                                0.09      0.50
+  data required time                                         0.50
+  ------------------------------------------------------------------------
+  data required time                                         0.50
+  data arrival time                                         -1.45
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.96
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q7_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/QN (DFFNARX2)    0.70      1.10 f
+  U4188/Q (MUX21X1)                                0.29      1.40 f
+  gre_d_INV_14_inst_7079/ZN (INVX1)                0.08      1.47 r
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/D (DFFNARX2)     0.00      1.47 r
+  data arrival time                                          1.47
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q7_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.11      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.47
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.96
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q2_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/QN (DFFNARX2)    0.67      1.07 f
+  U4463/QN (AOI21X1)                               0.28      1.35 r
+  ctmTdsLR_3_485/ZN (INVX1)                        0.07      1.42 f
+  ctmTdsLR_1_483/QN (NAND2X2)                      0.07      1.49 r
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/D (DFFNARX2)     0.00      1.49 r
+  data arrival time                                          1.49
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q2_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.49
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.96
+
+
+
+  Startpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_0_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_MaqEstDivi_PRE_reg_0_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/Q (DFFNARX1)
+                                                   0.82      1.23 f
+  ctmTdsLR_3_5569/ZN (INVX0)                       0.13      1.36 r
+  ctmTdsLR_1_5567/QN (NAND2X2)                     0.11      1.47 f
+  ctmTdsLR_1_4394/QN (NAND2X2)                     0.06      1.53 r
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/D (DFFNARX1)
+                                                   0.00      1.53 r
+  data arrival time                                          1.53
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_MaqEstDivi_PRE_reg_0_/CLK (DFFNARX1)
+                                                   0.00      0.40 f
+  library hold time                                0.11      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.01
+
+
+
+  Startpoint: UnidPro_Divisor_RegDeC_Q1_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: UnidPro_Divisor_RegDeC_Q1_Q_reg (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/QN (DFFNARX2)    0.69      1.10 f
+  U4473/QN (AOI21X1)                               0.29      1.39 r
+  ctmTdsLR_3_457/ZN (INVX1)                        0.08      1.46 f
+  ctmTdsLR_1_455/QN (NAND2X2)                      0.07      1.53 r
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/D (DFFNARX2)     0.00      1.53 r
+  data arrival time                                          1.53
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.00      0.40
+  UnidPro_Divisor_RegDeC_Q1_Q_reg/CLK (DFFNARX2)   0.00      0.40 f
+  library hold time                                0.12      0.52
+  data required time                                         0.52
+  ------------------------------------------------------------------------
+  data required time                                         0.52
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.01
+
+
+
+  Startpoint: REGD_Q_reg_13_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGD_Q_reg_13_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGD_Q_reg_13_/CLK (DFFNARX1)                    0.00      0.41 f
+  REGD_Q_reg_13_/Q (DFFNARX1)                      0.85      1.26 r
+  ctmTdsLR_1_5394/Q (MUX21X1)                      0.27      1.53 r
+  REGD_Q_reg_13_/D (DFFNARX1)                      0.00      1.53 r
+  data arrival time                                          1.53
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+  REGD_Q_reg_13_/CLK (DFFNARX1)                    0.00      0.41 f
+  library hold time                                0.10      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.02
+
+
+
+  Startpoint: REGD_Q_reg_14_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGD_Q_reg_14_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGD_Q_reg_14_/CLK (DFFNARX1)                    0.00      0.41 f
+  REGD_Q_reg_14_/Q (DFFNARX1)                      0.85      1.26 r
+  U1311/Q (MUX21X1)                                0.27      1.53 r
+  REGD_Q_reg_14_/D (DFFNARX1)                      0.00      1.53 r
+  data arrival time                                          1.53
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+  REGD_Q_reg_14_/CLK (DFFNARX1)                    0.00      0.41 f
+  library hold time                                0.10      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.02
+
+
+
+  Startpoint: REGD_Q_reg_9_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGD_Q_reg_9_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGD_Q_reg_9_/CLK (DFFNARX1)                     0.00      0.41 f
+  REGD_Q_reg_9_/Q (DFFNARX1)                       0.84      1.25 r
+  ctmTdsLR_1_3544/Q (MUX21X1)                      0.28      1.53 r
+  REGD_Q_reg_9_/D (DFFNARX1)                       0.00      1.53 r
+  data arrival time                                          1.53
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+  REGD_Q_reg_9_/CLK (DFFNARX1)                     0.00      0.41 f
+  library hold time                                0.10      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.03
+
+
+
+  Startpoint: REGD_Q_reg_6_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGD_Q_reg_6_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGD_Q_reg_6_/CLK (DFFNARX1)                     0.00      0.41 f
+  REGD_Q_reg_6_/Q (DFFNARX1)                       0.85      1.26 r
+  ctmTdsLR_1_3419/Q (MUX21X1)                      0.29      1.54 r
+  REGD_Q_reg_6_/D (DFFNARX1)                       0.00      1.54 r
+  data arrival time                                          1.54
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+  REGD_Q_reg_6_/CLK (DFFNARX1)                     0.00      0.41 f
+  library hold time                                0.09      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.54
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.04
+
+
+
+  Startpoint: REGD_Q_reg_10_ (falling edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGD_Q_reg_10_ (falling edge-triggered flip-flop clocked by CLK)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: CLK
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+
+  REGD_Q_reg_10_/CLK (DFFNARX1)                    0.00      0.41 f
+  REGD_Q_reg_10_/Q (DFFNARX1)                      0.85      1.26 r
+  ctmTdsLR_1_3528/Q (MUX21X1)                      0.28      1.54 r
+  REGD_Q_reg_10_/D (DFFNARX1)                      0.00      1.54 r
+  data arrival time                                          1.54
+
+  clock CLK (fall edge)                            0.40      0.40
+  clock network delay (propagated)                 0.01      0.41
+  REGD_Q_reg_10_/CLK (DFFNARX1)                    0.00      0.41 f
+  library hold time                                0.10      0.51
+  data required time                                         0.51
+  ------------------------------------------------------------------------
+  data required time                                         0.51
+  data arrival time                                         -1.54
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.04
+
+
+1
