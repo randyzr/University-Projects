@@ -1,0 +1,82 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Micro8088
+Version: R-2020.09-SP5-1
+Date   : Tue Nov 25 12:38:16 2025
+****************************************
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+  Startpoint: MDM_ModEje_RegInst_Q_reg_42_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: MDM_ModInt_DIO_RegSal1_Q_reg_11_
+            (falling edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Micro8088          140000                saed90nm_max
+  ControlMicro       35000                 saed90nm_max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  MDM_ModEje_RegInst_Q_reg_42_/CLK (DFFARX1)              0.00       0.00 r
+  MDM_ModEje_RegInst_Q_reg_42_/Q (DFFARX1)                0.67       0.67 r
+  CDM/INSTE[10] (ControlMicro)                            0.00       0.67 r
+  CDM/U159/Q (AO22X2)                                     3.12       3.79 r
+  CDM/U594/Z (NBUFFX2)                                    0.45       4.24 r
+  CDM/U225/ZN (INVX0)                                     0.25       4.48 f
+  CDM/U63/ZN (INVX1)                                      0.32       4.81 r
+  CDM/U437/QN (NAND3X1)                                   2.75       7.56 f
+  CDM/U446/Q (OA21X1)                                     0.36       7.91 f
+  CDM/U65/Q (AND2X1)                                      0.34       8.25 f
+  CDM/U64/QN (NAND2X1)                                    0.14       8.39 r
+  CDM/U47/QN (NOR2X0)                                     0.31       8.70 f
+  CDM/U58/QN (NAND2X0)                                    0.27       8.97 r
+  CDM/U311/ZN (INVX0)                                     0.16       9.13 f
+  CDM/U61/ZN (INVX1)                                      0.32       9.45 r
+  CDM/U79/QN (NAND4X0)                                    1.47      10.92 f
+  CDM/U77/Q (AND3X1)                                      0.31      11.24 f
+  CDM/U417/Q (AND2X1)                                     0.22      11.46 f
+  CDM/U169/Q (AND3X1)                                     0.37      11.83 f
+  CDM/U10/ZN (INVX1)                                      0.17      12.00 r
+  CDM/U452/ZN (INVX0)                                     2.35      14.35 f
+  CDM/U724/ZN (INVX0)                                     0.34      14.69 r
+  CDM/U513/Q (AND2X2)                                     0.77      15.47 r
+  CDM/U897/Q (AO22X1)                                     4.66      20.12 r
+  CDM/U898/QN (NAND2X0)                                   0.29      20.41 f
+  CDM/U899/QN (NAND3X0)                                   0.17      20.58 r
+  CDM/U434/QN (NAND2X0)                                   0.16      20.74 f
+  CDM/U902/Q (AND2X1)                                     0.24      20.98 f
+  CDM/U903/QN (NAND2X2)                                   0.19      21.17 r
+  CDM/WRDO[0] (ControlMicro)                              0.00      21.17 r
+  U1097/ZN (INVX0)                                        9.55      30.72 f
+  U2151/QN (NAND2X2)                                      1.14      31.86 r
+  U2152/Z (NBUFFX2)                                      30.02      61.88 r
+  U2153/Q (AND2X1)                                       58.60     120.48 r
+  U2154/Q (AO21X1)                                        0.58     121.06 r
+  MDM_ModInt_DIO_RegSal1_Q_reg_11_/D (DFFNARX1)           0.32     121.38 r
+  data arrival time                                                121.38
+
+  clock CLK (fall edge)                                   0.50       0.50
+  clock network delay (ideal)                             0.00       0.50
+  clock uncertainty                                      -0.05       0.45
+  MDM_ModInt_DIO_RegSal1_Q_reg_11_/CLK (DFFNARX1)         0.00       0.45 f
+  library setup time                                     -0.02       0.43
+  data required time                                                 0.43
+  --------------------------------------------------------------------------
+  data required time                                                 0.43
+  data arrival time                                               -121.38
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -120.95
+
+
+1

@@ -1,0 +1,63 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Micro8088
+Version: R-2020.09-SP5-1
+Date   : Tue Nov 25 12:38:16 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_max (File: /mnt/vol_NFS_alajuela/VLSI/Estudiantes/rzamora/Homework10/libs/saed90nm_max.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+Micro8088              140000            saed90nm_max
+ControlMicro           35000             saed90nm_max
+DecoDeEjecucion        16000             saed90nm_max
+RegistroSiguienteInstruccion
+                       8000              saed90nm_max
+Buffer8bits            ForQA             saed90nm_max
+RegistroDatos          8000              saed90nm_max
+ALU                    70000             saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 133.0894 uW   (57%)
+  Net Switching Power  = 100.8098 uW   (43%)
+                         ---------
+Total Dynamic Power    = 233.8992 uW  (100%)
+
+Cell Leakage Power     = 361.6428 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           6.2958            3.9047        5.5885e+07           66.0859  (  11.10%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    126.7938           96.9051        3.0576e+08          529.4562  (  88.90%)
+--------------------------------------------------------------------------------------------------
+Total            133.0896 uW       100.8099 uW     3.6164e+08 pW       595.5421 uW
+1
